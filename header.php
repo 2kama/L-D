@@ -169,7 +169,7 @@
 
   <div class="menuTab">
      
-      <a href="#">
+      <a href="managecourse">
          <div class="pageTab">
              <i class="material-icons">library_books</i>
              <span>Manage Courses</span>
