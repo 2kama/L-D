@@ -141,8 +141,8 @@
 
 
 
-  <header> 
-    <i class="material-icons menuBtn">menu</i>
+  <header class="second"> 
+    <i class="material-icons menuBtn1">menu</i>
     <img src="img/retro.png" alt="">
     <img src="img/logo.png" class="marginImg" alt="">
     <ul>
@@ -167,10 +167,10 @@
 
 
 
-  <div class="menuTab">
+  <div class="menuTab1">
      
       <a href="managecourse">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">library_books</i>
              <span>Manage Courses</span>
          </div>
@@ -178,7 +178,7 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">folder</i>
              <span>Employee Records</span>
          </div>
@@ -186,7 +186,7 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">email</i>
              <span>Messages</span>
          </div>
@@ -194,14 +194,14 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">event</i>
              <span>Training Management</span>
          </div>
       </a>
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">settings</i>
              <span>Support Center</span>
          </div>
@@ -209,7 +209,7 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">list</i>
              <span>Reports</span>
          </div>
@@ -217,7 +217,7 @@
 
 
       <a href="multitenant">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">star</i>
              <span>Multi-Tenant LMS</span>
          </div>
@@ -225,7 +225,7 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">content_copy</i>
              <span>Examination</span>
          </div>
@@ -233,7 +233,7 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">group</i>
              <span>User Management</span>
          </div>
@@ -241,7 +241,7 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">payment</i>
              <span>Surveys/Course Feedbacks</span>
          </div>
@@ -249,7 +249,7 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">work</i>
              <span>Advert Management</span>
          </div>
@@ -257,7 +257,7 @@
 
 
       <a href="#">
-         <div class="pageTab">
+         <div class="pageTab1">
              <i class="material-icons">wifi</i>
              <span>Discussion Management</span>
          </div>
@@ -268,6 +268,6 @@
 
 
 
-  <div class="pallete"> 
+  <div class="pallete1"> 
 
 

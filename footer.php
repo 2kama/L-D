@@ -3,9 +3,9 @@
 </div>
 
 
-<footer>
-  <div class="foot">&copy;2017 - LEARNING MANAGEMENT SYSTEM</div>
-  <div class="power">
+<footer class="second">
+  <div class="foot1">&copy;2017 - LEARNING MANAGEMENT SYSTEM</div>
+  <div class="power1">
   
   </div>
 </footer>

@@ -71,7 +71,7 @@ a.button {
 
 
 /** header styles **/
- header {
+ header.second {
      width: 100%;
      height: 80px;
      background: #fff;
@@ -80,15 +80,15 @@ a.button {
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
- header.header_up {
+ header.second.header_up {
      height: 50px;
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
- header img {
+ header.second img {
      height: 100%;
 }
- header .menuBtn {
+ header.second .menuBtn1 {
      display: none;
      font-size: 25px;
      width: 50px;
@@ -99,22 +99,22 @@ a.button {
      -webkit-transition: all 0.5s ease-out;
      cursor: pointer;
 }
- header .menuBtn.inside {
+ header.second .menuBtn1.inside {
      margin-left: -20px;
      transition: all 0.5s ease-out;
      -webkit-transition: all 0.5s ease-out;
 }
- img.marginImg {
+ header.second img.marginImg {
      height: 80%;
      margin-top: 10px;
      margin-bottom: 20px;
 }
- header.header_up ul {
+ header.second.header_up ul {
      margin-top: 10px;
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
- header ul {
+ header.second ul {
      list-style-type: none;
      height: 50px;
      padding: 5px;
@@ -125,11 +125,11 @@ a.button {
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
- header ul li {
+ header.second ul li {
      margin-right: 40px;
 
 }
- header ul li i {
+ header.second ul li i {
      font-size: 20px;
      color: #333;
      margin-top: 3px;
@@ -140,13 +140,13 @@ a.button {
      -moz-tab-highlight-color: rgba(0,0,0,0);
      -ms-tab-highlight-color: rgba(0,0,0,0);
 }
- header ul li h6 {
+ header.second ul li h6 {
      font-size: 15px;
      margin-left: 7px;
      margin-top: 5px;
      font-weight: normal;
 }
- header ul li span {
+ header.second ul li span {
      background: #4286f4;
      width: 23px;
      height: 23px;
@@ -283,7 +283,7 @@ a.button {
 
 
 /** buttons **/
-.btn {
+.btn1 {
      padding: 5px 10px 5px 10px;
      border-radius: 5px;
      -webkit-border-radius: 5px;
@@ -301,7 +301,7 @@ a.button {
 
 
 /** content style **/
- .wrapper {
+ .wrapper1 {
      width: 100%;
      margin-top: 80px;
 }
@@ -310,7 +310,7 @@ a.button {
 
 /**menuTab **/
 
-.menuTab {
+.menuTab1 {
   width: 20%;
   position: fixed;
   left: 0;
@@ -321,46 +321,47 @@ a.button {
   padding-top: 50px;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
+  overflow-x: hidden;
 }
-.menuTab a {
+.menuTab1 a {
    width: 100%;
    color: #E1FFFF;
 }
-.pageTab {
+.pageTab1 {
    width: 100%;
    padding: 11px 30px 11px 30px;
 
 }
-.pageTab i {
+.pageTab1 i {
    font-size: 17px;
    margin-top: 1px;
 }
-.pageTab span {
+.pageTab1 span {
   font-size: 13px;
    margin-left: 22px;
    font-weight: bold;
 } 
-.pageTab:hover {
+.pageTab1:hover {
    background: #AB192D;
 }
-.menuTab.shrink {
+.menuTab1.shrink {
      width: 70px;
      padding-top: 50px;
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
-.menuTab.shrink .pageTab {
+.menuTab1.shrink .pageTab1 {
   padding: 11px 0px 11px 0px;
   width: 100%;
 }
-.menuTab.shrink .pageTab a{
+.menuTab1.shrink .pageTab1 a{
      width: 100%;
 }
-.menuTab.shrink .pageTab i {
+.menuTab1.shrink .pageTab1 i {
    width: 100%;
    text-align: center;
 }
-.menuTab.shrink .pageTab span {
+.menuTab1.shrink .pageTab1 span {
      display: none;
 }
 
@@ -368,7 +369,7 @@ a.button {
 
 
 
-.pallete {
+.pallete1 {
    padding-top: 80px;
    min-height: 800px;
    width: 80%;
@@ -376,12 +377,12 @@ a.button {
    transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
-.pallete.pallete_up {
+.pallete1.pallete_up {
      padding-top: 50px;
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
-.pallete.pallete_big {
+.pallete1.pallete_big {
    width: 100%;
    padding-left: 70px;
    transition: all 0.5s ease-out;
@@ -393,7 +394,7 @@ a.button {
 
 
 /** banner **/
-.banner {
+.banner1 {
       padding: 20px 10px 20px 10px;
       width: 100%;
       color: #fff;
@@ -401,14 +402,15 @@ a.button {
       height: 70px;
       z-index: 9;
 }
-.banner .menuBtn {
+.banner1 .menuBtn1 {
      color: #fff;
      font-size: 30px;
      cursor: pointer;
 }
-.banner span {
+.banner1 span {
       margin-left: 40px;
-      font-size: 20px;
+      font-size: 18px;
+      margin-top: 6px;
 }
 
 
@@ -444,45 +446,45 @@ a.button {
 
 
 /** colums **/
-.col4 {
+.col41 {
      width: 22%;
      margin: 1.5%;
 }
 
 
 
-.content{
+.content1{
      width: 100%;
      padding: 20px;
      padding-top: 90px;
 }
 
-.boxed {
+.boxed1 {
      width: 100%;
 }
-.boxHead {
+.boxHead1 {
      width: 100%;
      border-bottom: 1px solid #ddd;
 }
-.boxHeader {
+.boxHeader1 {
      font-size: 15px;
      font-weight: bold;
      padding-bottom: 6px;
 }
-.boxBody {
+.boxBody1 {
      padding: 20px 0px 20px 0px;
      width: 100%;
 }
-.pad {
+.pad1 {
      padding: 15px;
 }
-.pad i {
+.pad1 i {
      width: 100%;
      text-align: center;
      color: #fff;
      font-size: 35px;
 }
-.vintage {
+.vintage1 {
      border: 2px solid #fff;
      width: 80%;
      margin-left: 10%;
@@ -497,7 +499,7 @@ a.button {
 
 
 
-table.org {
+table.org1 {
      width: 100%;
 }
 tbody, thead {
@@ -506,39 +508,39 @@ tbody, thead {
 tr {
      width: 100%;
 }
-table.org thead {
+table.org1 thead {
      background: #F8F8F8;
      font-weight: bold;
      font-size: 13px;
      border-bottom: 2px solid #28A7BE;
 }
-table.org td, table.org th {
+table.org1 td, table.org1 th {
      padding: 10px;
      font-size: 13px;
 }
 th {
      text-align: left;
 }
-table.org tr th:nth-child(2), table.org tr th:nth-child(4), table.org tr td:nth-child(2), table.org tr td:nth-child(4) {     
+table.org1 tr th:nth-child(2), table.org1 tr th:nth-child(4), table.org1 tr td:nth-child(2), table.org1 tr td:nth-child(4) {     
      width: 35%;
 }
-table.org tr td:nth-child(2), table.org tr td:nth-child(4) {
+table.org1 tr td:nth-child(2), table.org1 tr td:nth-child(4) {
      background: #fbfbfb;
 }
-table.org tr th:nth-child(1), table.org tr td:nth-child(1) {
+table.org1 tr th:nth-child(1), table.org1 tr td:nth-child(1) {
      width: 5%;
      text-align: center;
 }
-table.org td a {
+table.org1 td a {
      margin-right: 10px;
 }
-table.org td a i {
+table.org1 td a i {
      font-size: 13px;
      color: #333;
      margin-right: 3px;
      margin-top: 3px;
 }
-table.org td a span {
+table.org1 td a span {
      font-size: 13px;
      color: #333;
 
@@ -550,39 +552,39 @@ table.org td a span {
 /** course management **/
 
 
-.bigMenu {
+.bigMenu1 {
   width: 111px;
   height: 109px;
   border: 3px solid transparent;
   padding: 8px;
 }
-.bigMenu:hover {
+.bigMenu1:hover {
   border: 3px solid #ff7400;
 }
-.smallMenu {
+.smallMenu1 {
   width: 100%;
   height: 100%;
   background: #DAE8E7;
   padding: 12px;
   padding-top: 20px;
 }
-.smallMenu i {
+.smallMenu1 i {
   width: 100%;
   text-align: center;
   color: #00d7ff;
   font-size: 30px;
 }
-.smallMenu span {
+.smallMenu1 span {
   width: 100%;
   margin-top: 6px;
   font-size: 10px;
   color: #444;
   text-align: center;
 }
-.bigMenu:hover .smallMenu {
+.bigMenu1:hover .smallMenu1 {
   background: #0a9cb7;
 }
-.bigMenu:hover .smallMenu i, .bigMenu:hover .smallMenu span {
+.bigMenu1:hover .smallMenu1 i, .bigMenu1:hover .smallMenu1 span {
   color: #fff;
 }
 
@@ -593,10 +595,10 @@ table.org td a span {
 
 /** footer **/
 
-footer {
+footer.second {
      width: 100%;
 }
- .foot {
+ .foot1 {
      width: 100%;
      text-align: center;
      background: #ce3535;
@@ -604,17 +606,17 @@ footer {
      font-size: 15px;
      padding: 10px;
 }
- .power {
+ .power1 {
      background: #eee;
      width: 100%;
      height: 50px;
 }
- .power img {
+ .power1 img {
      float: right;
      height: 100%;
      margin-right: 10%;
 }
- .power span {
+ .power1 span {
      color: #aaa;
      font-size: 17px;
      float: right;
@@ -629,11 +631,11 @@ footer {
 
  @media(max-width: 1200px) {
    
-.pageTab span {
+.pageTab1 span {
   font-size: 10px;
    margin-left: 20px;
 } 
-.pageTab i {
+.pageTab1 i {
    font-size: 15px;
 }
 
@@ -646,39 +648,39 @@ footer {
 
 
 @media(max-width: 960px) {
-     .menuTab {
+     .menuTab1 {
           width: 70px;
           padding-top: 50px;
      }
-     .menuTab .pageTab {
+     .menuTab1 .pageTab1 {
        padding: 11px 0px 11px 0px;
      }
-     .menuTab .pageTab i {
+     .menuTab1 .pageTab1 i {
         width: 100%;
         text-align: center;
      }
-     .menuTab .pageTab span {
+     .menuTab1 .pageTab1 span {
           display: none;
      }
-     .menuTab.shrink {
+     .menuTab1.shrink {
           width: 250px;
      }
 
-.menuTab.shrink .pageTab i {
+.menuTab1.shrink .pageTab1 i {
    margin-top: 1px;
    text-align: left;
    width: auto;
    padding-left: 20px;
 }
-.menuTab.shrink .pageTab span {
+.menuTab1.shrink .pageTab1 span {
   display: block;
 } 
 
-     .pallete {
+     .pallete1 {
         width: 100%;
         padding-left: 70px;
      }
-     .pallete.pallete_big {
+     .pallete1.pallete_big {
           margin-right: -250px;
           padding-left: 0px;
      }
@@ -694,38 +696,38 @@ footer {
 
 
  @media(max-width: 800px) {
-     header {
+     header.second {
          height: 50px;
     }
-     header ul {
+     header.second ul {
          margin-top: 10px;
          margin-right: 0px;
     }
-     .wrapper {
+     .wrapper1 {
          margin-top: 50px;
     }
-     header ul li {
+     header.second ul li {
          margin-right: 20px;
     }
-     header ul li i {
+     header.second ul li i {
          font-size: 20px;
     }
-     header ul li h6 {
+     header.second ul li h6 {
          font-size: 14px;
     }
-     header ul li span {
+     header.second ul li span {
          width: 20px;
          height: 20px;
          font-size: 12px;
     }
 
-    .pallete {
+    .pallete1 {
           padding-top: 50px;
      }
 
 
 
- table.org tr th:nth-child(3), table.org tr th:nth-child(4), table.org tr th:nth-child(5), table.org tr td:nth-child(3), table.org tr td:nth-child(4), table.org tr td:nth-child(5) {     
+ table.org1 tr th:nth-child(3), table.org1 tr th:nth-child(4), table.org1 tr th:nth-child(5), table.org1 tr td:nth-child(3), table.org1 tr td:nth-child(4), table.org1 tr td:nth-child(5) {     
      width: auto;
 }
     
@@ -736,13 +738,13 @@ footer {
 
 
  @media(max-width: 768px) {
-     table.org tr td a span {
+     table.org1 tr td a span {
           display: none;
      }
 
 
 
-     .col4 {
+     .col41 {
           width: 47%;
           margin: 1.5%;
      }
@@ -755,46 +757,46 @@ footer {
 
  @media(max-width: 580px) {
     
-     header ul li h6 {
+     header.second ul li h6 {
          display: none;
     }
- table.org tr th:nth-child(3), table.org tr td:nth-child(3) {     
+ table.org1 tr th:nth-child(3), table.org1 tr td:nth-child(3) {     
      display: none;
 }
 
-table.org tr th:nth-child(1), table.org tr td:nth-child(1) {     
+table.org1 tr th:nth-child(1), table.org1 tr td:nth-child(1) {     
      display: none;
 }
 
 
-.menuTab {
+.menuTab1 {
           width: 250px;
           margin-left: -250px;
      }
-     .menuTab .pageTab {
+     .menuTab1 .pageTab1 {
        padding: 11px 0px 11px 0px;
        display: block;
      }
-     .menuTab .pageTab i {
+     .menuTab1 .pageTab1 i {
         margin-top: 1px;
    text-align: left;
    width: auto;
    padding-left: 20px;
      }
-     .menuTab .pageTab span {
+     .menuTab1 .pageTab1 span {
           display: block;
      }
-     .menuTab.shrink {
+     .menuTab1.shrink {
           margin-left: 0px;
           z-index: 9;
      }
  
 
-     .pallete {
+     .pallete1 {
         width: 100%;
         padding-left: 0px;
      }
-     .pallete.pallete_big {
+     .pallete1.pallete_big {
           z-index: 2;
      }
 
@@ -812,11 +814,11 @@ table.org tr th:nth-child(1), table.org tr td:nth-child(1) {
 
  @media(max-width: 500px) {
     
-     header img {
+     header.second img {
          display: none;
     }
 
-    .col4 {
+    .col41 {
           width: 97%;
           margin: 1.5%;
      }

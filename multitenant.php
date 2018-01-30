@@ -4,40 +4,48 @@
 
 
 
-<div class="banner bkSkyBlue">
-	<i class="material-icons menuBtn">menu</i>
+<style>
+	.menuTab1 a:nth-child(7) .pageTab1 {
+	   background: #AB192D;
+	}
+</style>
+
+
+
+<div class="banner1 bkSkyBlue">
+	<i class="material-icons menuBtn1">menu</i>
 	<span>Multi-Tenant User</span>
 </div>
 
 
 
-<div class="content">
-	<div class="boxed">
+<div class="content1">
+	<div class="boxed1">
 
-		<div class="boxHead">
-			<div class="boxHeader bBYellow">Quick Actions</div>
+		<div class="boxHead1">
+			<div class="boxHeader1 bBYellow">Quick Actions</div>
 		</div>
 
-		<div class="boxBody">
+		<div class="boxBody1">
 
-			<div class="pad col4 bkPurple">
+			<div class="pad1 col41 bkPurple">
 				<i class="material-icons">note_add</i>
-				<div class="vintage">Add Organisation</div>
+				<div class="vintage1">Add Organisation</div>
 			</div>
 
-			<div class="pad col4 bkPurpleBlue">
+			<div class="pad1 col41 bkPurpleBlue">
 				<i class="material-icons">group</i>
-				<div class="vintage">Total Learners</div>
+				<div class="vintage1">Total Learners</div>
 			</div>
 
-			<div class="pad col4 bkDarkPink">
+			<div class="pad1 col41 bkDarkPink">
 				<i class="material-icons">account_balance</i>
-				<div class="vintage">Active Organisations</div>
+				<div class="vintage1">Active Organisations</div>
 			</div>
 
-			<div class="pad col4 bkPink">
+			<div class="pad1 col41 bkPink">
 				<i class="material-icons">book</i>
-				<div class="vintage">Active Courses</div>
+				<div class="vintage1">Active Courses</div>
 			</div>
 
 		</div>
@@ -45,15 +53,15 @@
 	</div>
 
 
-	<div class="boxed">
+	<div class="boxed1">
 
-		<div class="boxHead">
-			<div class="boxHeader bBYellow">Recently added Organisations</div>
+		<div class="boxHead1">
+			<div class="boxHeader1 bBYellow">Recently added Organisations</div>
 		</div>
 
-		<div class="boxBody">
+		<div class="boxBody1">
 
-			<table class="org">
+			<table class="org1">
 				<thead>
 					<tr>
 						<th>SN</th>
@@ -75,7 +83,7 @@
 							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
 						</td>
 						<td>
-							<div class="btn btnGreen">Activate</div>
+							<div class="btn1 btnGreen">Activate</div>
 						</td>
 
 
@@ -89,7 +97,7 @@
 							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
 						</td>
 						<td>
-							<div class="btn btnGreen">Activate</div>
+							<div class="btn1 btnGreen">Activate</div>
 						</td>
 					</tr>
 
@@ -105,7 +113,7 @@
 							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
 						</td>
 						<td>
-							<div class="btn btnRed">Deactivate</div>
+							<div class="btn1 btnRed">Deactivate</div>
 						</td>
 					</tr>
 
@@ -121,7 +129,7 @@
 							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
 						</td>
 						<td>
-							<div class="btn btnRed">Deactivate</div>
+							<div class="btn1 btnRed">Deactivate</div>
 						</td>
 					</tr>
 
@@ -137,7 +145,7 @@
 							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
 						</td>
 						<td>
-							<div class="btn btnGreen">Activate</div>
+							<div class="btn1 btnGreen">Activate</div>
 						</td>
 					</tr>
 					</tr>

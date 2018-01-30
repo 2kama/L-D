@@ -5,7 +5,7 @@
 
 
 <style>
-	.menuTab a:nth-child(1) .pageTab {
+	.menuTab1 a:nth-child(1) .pageTab1 {
 	   background: #AB192D;
 	}
 </style>
@@ -13,26 +13,26 @@
 
 
 
-<div class="banner bkSkyBlue">
-	<i class="material-icons menuBtn">menu</i>
+<div class="banner1 bkSkyBlue">
+	<i class="material-icons menuBtn1">menu</i>
 	<span>Manage Courses</span>
 </div>
 
 
 
 
-<div class="content">
+<div class="content1">
 	
 
-	<div class="boxHead">
-		<div class="boxHeader bDGreenishBlue">Create</div>
+	<div class="boxHead1">
+		<div class="boxHeader1 bDGreenishBlue">Create</div>
 	</div>
 
-	<div class="boxBody">
+	<div class="boxBody1">
 
 		<a href="addcourse">
-			<div class="bigMenu">
-				<div class="smallMenu">
+			<div class="bigMenu1">
+				<div class="smallMenu1">
 					<i class="material-icons">library_add</i>
 					<span>New Course</span>
 				</div>
@@ -41,8 +41,8 @@
 
 
 		<a href="#">
-			<div class="bigMenu">
-				<div class="smallMenu">
+			<div class="bigMenu1">
+				<div class="smallMenu1">
 					<i class="material-icons">folder_open</i>
 					<span>New Learning Area</span>
 				</div>
@@ -52,8 +52,8 @@
 
 
 		<a href="#">
-			<div class="bigMenu">
-				<div class="smallMenu">
+			<div class="bigMenu1">
+				<div class="smallMenu1">
 					<i class="material-icons">folder</i>
 					<span>New Learner Group</span>
 				</div>
@@ -68,15 +68,15 @@
 
 
 
-	<div class="boxHead">
-		<div class="boxHeader bDGreenishBlue">Assign</div>
+	<div class="boxHead1">
+		<div class="boxHeader1 bDGreenishBlue">Assign</div>
 	</div>
 
-	<div class="boxBody">
+	<div class="boxBody1">
 
 		<a href="#">
-			<div class="bigMenu">
-				<div class="smallMenu">
+			<div class="bigMenu1">
+				<div class="smallMenu1">
 					<i class="material-icons">swap_horiz</i>
 					<span>Assign Course</span>
 				</div>
@@ -92,15 +92,15 @@
 
 
 
-	<div class="boxHead">
-		<div class="boxHeader bDGreenishBlue">Manage course contents</div>
+	<div class="boxHead1">
+		<div class="boxHeader1 bDGreenishBlue">Manage course contents</div>
 	</div>
 
-	<div class="boxBody">
+	<div class="boxBody1">
 
 		<a href="#">
-			<div class="bigMenu">
-				<div class="smallMenu">
+			<div class="bigMenu1">
+				<div class="smallMenu1">
 					<i class="material-icons">info</i>
 					<span>Course Reviews</span>
 				</div>
@@ -109,8 +109,8 @@
 
 
 		<a href="#">
-			<div class="bigMenu">
-				<div class="smallMenu">
+			<div class="bigMenu1">
+				<div class="smallMenu1">
 					<i class="material-icons">delete</i>
 					<span>View/Review Courses</span>
 				</div>
@@ -120,8 +120,8 @@
 
 
 		<a href="#">
-			<div class="bigMenu">
-				<div class="smallMenu">
+			<div class="bigMenu1">
+				<div class="smallMenu1">
 					<i class="material-icons">assignment_returned</i>
 					<span>Third Party Integration</span>
 				</div>

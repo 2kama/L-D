@@ -10,7 +10,7 @@ $(document).ready(function () {
 	var didScroll;
 	var lastScrollTop = 0;
 	var delta = 5;
-	var navbarHeight = $('header').outerHeight();
+	var navbarHeight = $('header.second').outerHeight();
 	$(window).scroll(function (event) {
 		didScroll = true;
 	});
@@ -29,13 +29,13 @@ $(document).ready(function () {
 		// This is necessary so you never see what is "behind" the navbar.
 		if (st > lastScrollTop && st > navbarHeight) {
 			// Scroll Down
-			$('header').addClass('header_up');
-			$('.pallete').addClass('pallete_up');
+			$('header.second').addClass('header_up');
+			$('.pallete1').addClass('pallete_up');
 		} else {
 			// Scroll Up
 			if (st + $(window).height() < $(document).height()) {
-				$('header').removeClass('header_up');
-				$('.pallete').removeClass('pallete_up');
+				$('header.second').removeClass('header_up');
+				$('.pallete1').removeClass('pallete_up');
 			}
 		}
 		lastScrollTop = st;
@@ -48,33 +48,12 @@ $(document).ready(function () {
 
 
 	//menu Button
-	$('.menuBtn').click(function () {
-		$('.pallete').toggleClass('pallete_big');
-		$('.menuTab').toggleClass('shrink');
+	$('.menuBtn1').click(function () {
+		$('.pallete1').toggleClass('pallete_big');
+		$('.menuTab1').toggleClass('shrink');
 	});
 
 
-
-
-	//tabs in course page
-
-	$('.tabs .tab-links a').on('click', function (e) {
-		var currentAttrValue = $(this).attr('href');
-		// Show/Hide Tabs
-		$('.tabs ' + currentAttrValue).slideDown(400).siblings().slideUp(400);
-		// Change/remove current tab to active
-		$(this).parent('li').addClass('active').siblings().removeClass('active');
-		e.preventDefault();
-	});
-
-	$('.hider').click(function () {
-		$('.hiderBody').hide();
-		$('.hiderHead').css("background", "#aaa");
-		$('.hiderHead i').html("keyboard_arrow_down");
-		$('.hiderHead i', this).html("keyboard_arrow_up");
-		$('.hiderHead', this).css("background", "#4286f4");
-		$('.hiderBody', this).fadeIn();
-	});
 
 
 
