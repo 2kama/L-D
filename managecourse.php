@@ -40,7 +40,7 @@
 		</a>
 
 
-		<a href="#">
+		<a href="javascript:;">
 			<div class="bigMenu1">
 				<div class="smallMenu1">
 					<i class="material-icons">folder_open</i>
@@ -51,7 +51,7 @@
 
 
 
-		<a href="#">
+		<a href="javascript:;">
 			<div class="bigMenu1">
 				<div class="smallMenu1">
 					<i class="material-icons">folder</i>
@@ -74,7 +74,7 @@
 
 	<div class="boxBody1">
 
-		<a href="#">
+		<a href="assigncourses">
 			<div class="bigMenu1">
 				<div class="smallMenu1">
 					<i class="material-icons">swap_horiz</i>
