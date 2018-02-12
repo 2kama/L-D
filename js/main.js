@@ -92,14 +92,12 @@ $(document).ready(function () {
 
 
 		$('.formArea1 .btnDarkPink').click(function() {
-			$('.formArea1').hide();
+			$('.formArea1').fadeOut();
 			$('.progress1 .tabloid:nth-child(2)').addClass('active');
 					$('.progressIndicator1').css("width","75%");
 
 			setTimeout(function() {
-					$('.formArea2').show();
-
-					
+					$('.formArea2').fadeIn();
 
 			}, 500);
 
@@ -108,14 +106,12 @@ $(document).ready(function () {
 	});
 
 	$('.formArea2 .btnGrey').click(function() {
-			$('.formArea2').hide();
+			$('.formArea2').fadeOut();
 			$('.progress1 .tabloid:nth-child(2)').removeClass('active');
 					$('.progressIndicator1').css("width","25%");
 
 			setTimeout(function() {
-					$('.formArea1').show();
-
-					
+					$('.formArea1').fadeIn();					
 
 			}, 500);
 
@@ -125,7 +121,7 @@ $(document).ready(function () {
 
 
 	$('.formArea2 .btnDarkPink').click(function() {
-			$('.formArea2').hide();
+			$('.formArea2').fadeOut();
 
 			setTimeout(function() {
 					$('.formArea3').show();
@@ -134,8 +130,6 @@ $(document).ready(function () {
 					$('.progressIndicator1').css("width","100%");
 
 			}, 500);
-
-
 
 	});
 
@@ -171,6 +165,81 @@ $(document).ready(function () {
 
 	});
 
+
+
+	$('.nabi').click(function() {
+		$('.nabiBd').removeClass('harden');
+		$('.nabi .nabiHd .topicNm i').html("keyboard_arrow_down");
+		$('.nabiBd', this).addClass('harden');
+		$('.nabiHd .topicNm i', this).html("keyboard_arrow_up");
+	});
+
+
+
+
+	$('.select11').change(function() {
+			var select1 = $('.select11').val();
+
+			if(select1 == "") {
+				$('.select12, .select13').prop("disabled", true);
+			}
+			else {
+				$('.select12').prop("disabled", false);
+			}
+		});
+
+
+		$('.select12').change(function() {
+			var select2 = $('.select12').val();
+
+			if(select2 == "") {
+				$('.select13').prop("disabled", true);
+			}
+			else {
+				$('.select13').prop("disabled", false);
+			}
+		});
+
+		
+
+
+
+
+
+ $('.nabiHd i.editMe').click(function() {
+	$('.backdrop, .changeModule').fadeIn();
+ });
+
+ $('.deleteMe').click(function() {
+		$('.backdrop, .deleteSome').fadeIn();
+
+ });
+
+ $('.addNewLearningArea').click(function() {
+	$('.backdrop, .learningArea').fadeIn();
+ });
+
+  $('.addNewLearnerGroup').click(function() {
+	$('.backdrop, .learnerGroup').fadeIn();
+ });
+
+
+
+
+
+
+
+
+
+
+
+//backdrop remove
+
+$('.backdrop').click(function() {
+
+	$('.backdropBox, .backdrop').fadeOut();
+
+});
 
 	
 });
