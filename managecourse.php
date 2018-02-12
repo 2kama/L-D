@@ -19,21 +19,10 @@
 </div>
 
 
-<div class="backdrop"></div>
 
 
 
 <div class="content1">
-
-	<div class="learningArea backdropBox">
-		<input type="text" placeholder="New Learning Area">
-		<button class="btn1 btnMedium btnGreen" type="submit">Add</button>
-	</div>
-
-	<div class="learnerGroup backdropBox">
-		<input type="text" placeholder="New Learner Group">
-		<button class="btn1 btnMedium btnGreen" type="submit">Add</button>
-	</div>
 	
 
 	<div class="boxHead1">
@@ -52,7 +41,7 @@
 		</a>
 
 
-		<a href="javascript:;" class="addNewLearningArea">
+		<a href="learningarea">
 			<div class="bigMenu1">
 				<div class="smallMenu1">
 					<i class="material-icons">folder_open</i>
@@ -63,7 +52,7 @@
 
 
 
-		<a href="javascript:;" class="addNewLearnerGroup">
+		<a href="javascript:;">
 			<div class="bigMenu1">
 				<div class="smallMenu1">
 					<i class="material-icons">folder</i>
