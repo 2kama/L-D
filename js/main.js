@@ -219,10 +219,14 @@ $(document).ready(function () {
 	$('.backdrop, .learningArea').fadeIn();
  });
 
-  $('.addNewLearnerGroup').click(function() {
-	$('.backdrop, .learnerGroup').fadeIn();
+  $('.editLA').click(function() {
+	$('.backdrop, .editLearningArea').fadeIn();
  });
 
+
+ $('.deleteLA').click(function() {
+	$('.backdrop, .deleteLearningArea').fadeIn();
+ });
 
 
 
