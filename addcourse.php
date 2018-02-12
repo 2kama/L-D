@@ -11,6 +11,9 @@
 
 
 
+<div class="backdrop"></div>
+
+
 <div class="banner1 bkPurple">
 	<i class="material-icons menuBtn1">menu</i>
 	<span>Add a Course</span>
@@ -18,6 +21,17 @@
 
 
 <div class="content1">
+
+
+	<div class="changeModule backdropBox">
+		<input type="text">
+		<button class="btn1 btnMedium btnGreen" type="submit">Change</button>
+	</div>
+
+	<div class="deleteSome backdropBox">
+		<h2>Are you sure you want to delete this?</h2>
+		<button class="btn1 btnMedium btnRed">Yes</button>
+	</div>
 	
 
 	<div class="boxBody1">
@@ -187,53 +201,217 @@
 				<div class="boxHeader1 bDPurple">Uploaded Content</div>
 			</div>
 
+
 			<div class="boxBody1">
+				
 
-				<div class="courseSlate">
+				<div class="nabi">
+					<div class="nabiHd">
+
+						<div class="courseSlate">
+							<div class="topicNm"><i class="material-icons">keyboard_arrow_down</i> &emsp; Module 1</div>
+
+							<div class="topicAction">
+								<i class="material-icons editMe">edit</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="nabiBd">
+						
+						<div class="courseSlate">
 					
-					<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
-					<div class="topicMod">Module 1</div>
-					<div class="topicAction">
-						<i class="material-icons">edit</i>
-						<i class="material-icons">visibility</i>
-						<i class="material-icons" style="color:red;">close</i>
+							<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+
+
+						<div class="courseSlate">
+					
+							<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+
+
+						<div class="courseSlate">
+					
+							<div class="topicNm"><i class="material-icons typei">description</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+
+
+						<div class="courseSlate">
+					
+							<div class="topicNm"><i class="material-icons typei">description</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+
+
+						<div class="courseSlate">
+					
+							<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
 					</div>
 				</div>
 
-				<div class="courseSlate">
+
+
+
+
+				<div class="nabi">
+					<div class="nabiHd">
+
+						<div class="courseSlate">
+							<div class="topicNm"><i class="material-icons">keyboard_arrow_down</i> &emsp; Module 2</div>
+
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="nabiBd">
+						
+						<div class="courseSlate">
 					
-					<div class="topicNm"><i class="material-icons typei">description</i>Topic 1</div>
-					<div class="topicMod">Module 1</div>
-					<div class="topicAction">
-						<i class="material-icons">edit</i>
-						<i class="material-icons">visibility</i>
-						<i class="material-icons" style="color:red;">close</i>
+							<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+
+
+						<div class="courseSlate">
+					
+							<div class="topicNm"><i class="material-icons typei">description</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
 					</div>
 				</div>
 
 
-				<div class="courseSlate">
-					
-					<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
-					<div class="topicMod">Module 1</div>
-					<div class="topicAction">
-						<i class="material-icons">edit</i>
-						<i class="material-icons">visibility</i>
-						<i class="material-icons" style="color:red;">close</i>
-					</div>
-				</div>
 
 
-				<div class="courseSlate">
+				<div class="nabi">
+					<div class="nabiHd">
+
+						<div class="courseSlate">
+							<div class="topicNm"><i class="material-icons">keyboard_arrow_down</i> &emsp; Module 3</div>
+
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="nabiBd">
+
+
+
+						<div class="courseSlate">
 					
-					<div class="topicNm"><i class="material-icons typei">description</i>Topic 1</div>
-					<div class="topicMod">Module 1</div>
-					<div class="topicAction">
-						<i class="material-icons">edit</i>
-						<i class="material-icons">visibility</i>
-						<i class="material-icons" style="color:red;">close</i>
+							<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+
+
+						<div class="courseSlate">
+					
+							<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+
+
+						<div class="courseSlate">
+					
+							<div class="topicNm"><i class="material-icons typei">slideshow</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
+
+
+						<div class="courseSlate">
+					
+							<div class="topicNm"><i class="material-icons typei">description</i>Topic 1</div>
+							
+							<div class="topicAction">
+								<i class="material-icons">edit</i>
+								<i class="material-icons">visibility</i>
+								<i class="material-icons deleteMe" style="color: red;">close</i>
+							</div>
+						</div>
+
 					</div>
 				</div>
+				
+
+				
+
+				
 
 			</div>
 

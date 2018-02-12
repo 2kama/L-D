@@ -156,112 +156,107 @@
         <i class="material-icons">person</i>
         <h6>Welcome <b>Samuel</b></h6>  <i class="material-icons">arrow_drop_down</i>
       </li>
-
-      <li>
-         <a href="#"><i class="material-icons">settings</i></a>
-      </li>
     </ul>
   </header>
 
 
-
-
-
   <div class="menuTab1">
-     
+     <ul class="loop">
       <a href="managecourse">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">library_books</i>
              <span>Manage Courses</span>
-         </div>
+         </li>
       </a>
 
 
-      <a href="#">
-         <div class="pageTab1">
+      <a href="records">
+         <li class="pageTab1">
              <i class="material-icons">folder</i>
              <span>Employee Records</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">email</i>
              <span>Messages</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">event</i>
              <span>Training Management</span>
-         </div>
+         </li>
       </a>
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">settings</i>
              <span>Support Center</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">list</i>
              <span>Reports</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="multitenant">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">star</i>
              <span>Multi-Tenant LMS</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">content_copy</i>
              <span>Examination</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">group</i>
              <span>User Management</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">payment</i>
              <span>Surveys/Course Feedbacks</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">work</i>
              <span>Advert Management</span>
-         </div>
+         </li>
       </a>
 
 
       <a href="#">
-         <div class="pageTab1">
+         <li class="pageTab1">
              <i class="material-icons">wifi</i>
              <span>Discussion Management</span>
-         </div>
+         </li>
       </a>
+
+    </ul>
 
   </div>
 
