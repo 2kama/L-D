@@ -675,7 +675,7 @@ tr {
      width: 100%;
 }
 table.org1 thead {
-     background: #F8F8F8;
+     background: #ddd;
      font-weight: bold;
      font-size: 13px;
      border-bottom: 2px solid #28A7BE;
@@ -1044,6 +1044,12 @@ span.radio {
   margin-top: 20px;
   border: 1px solid #eee;
 }
+.tanHP {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  -webkit-border-top-left-radius: 12px;
+  -webkit-border-top-right-radius: 12px;
+}
 .searchT {
   width: 200px;
   height: 30px;
@@ -1129,17 +1135,22 @@ span.radio {
 .tableRanch {
   width: 100%;
   overflow-x: auto;
+  margin-top: -4px;
 }
 table.employee {
   width: 100%;
-  background: #fff;
   font-size: 13px;
 }
 .employee thead {
   width: 100%;
   color: #354c98;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  background: #fff;
+  border-top: 0px solid transparent;
 }
 .employee tbody {
   width: 100%;
@@ -1148,10 +1159,14 @@ table.employee {
   width: 100%;
 }
 .employee tr td {
-  padding: 5px;
+  padding: 10px;
+  background: #fff;
 }
 .employee tr td:nth-child(1) {
   width: 10%;
+}
+.employee tbody tr td:nth-child(1) {
+  border-right: 2px solid #f0f3f5;
 }
 .employee tr td a {
   color: #00d7ff;
@@ -1165,8 +1180,15 @@ table.employee {
 .employee tbody tr td:nth-child(4) {
   color: #ccc;
 }
-
-
+.employee tbody tr td:nth-child(3) {
+  font-weight: bold;
+}
+.employee tbody tr {
+  margin-top: 0px;
+}
+.employee tbody tr td a button {
+  margin-top: -5px;
+}
 
 
 
