@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 
-<title>Manage Courses</title>
+<title>Employee Records</title>
 
 
 <style>
@@ -21,16 +21,16 @@
 
 
 
-<div class="content1">
+<div class="content1" style="background: #f0f3f5;min-height: 90vh;">
 	
 	<div class="boxHead1">
 		<div class="boxHeader1 bDCyanBlue">Employee List</div>
 	</div>
 
-	<div class="boxBody1" style="background: #f0f3f5;">
+	<div class="boxBody1">
 
 			
-			<div class="tanHead" style="background: #fff;">
+			<div class="tanHead tanHP" style="background: #fff;border-bottom:0px solid transparent;">
 				<input type="text" class="searchT" placeholder="Employee Search ...">
 
 				<div class="pinA">
@@ -50,7 +50,7 @@
 						<td>Staff ID</td>
 						<td>Name</td>
 						<td>Department</td>
-						<td>Location</td>
+						<td>Branches</td>
 						<td>Action</td>
 					</tr>
 				</thead>
