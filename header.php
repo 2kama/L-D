@@ -160,8 +160,12 @@
   </header>
 
 
+
+
+
   <div class="menuTab1">
      <ul class="loop">
+
       <a href="managecourse">
          <li class="pageTab1">
              <i class="material-icons">library_books</i>
@@ -177,26 +181,45 @@
          </li>
       </a>
 
-
-      <a href="#">
-         <li class="pageTab1">
-             <i class="material-icons">email</i>
-             <span>Messages</span>
-         </li>
-      </a>
-
-
-      <a href="#">
-         <li class="pageTab1">
+      <a href="javascript:;">
+         <li class="pageTab1 fallDown">
              <i class="material-icons">event</i>
-             <span>Training Management</span>
+             <span>Training Management <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
+
+             <ul>
+     
+                 <li><a href="alltraining"><i class="material-icons">dvr</i><span>All Training</span></a></li>
+               
+                 <li><a href="newtraining"><i class="material-icons">add_box</i><span>Add New</span></a></li>
+              
+                 <li><a href="assigntraining"><i class="material-icons">link</i><span>Assign Training</span></a></li>
+               
+                 <li><a href="trainingrequest"><i class="material-icons">swap_horiz</i><span>Training Request</span></a></li>
+
+                 <li><a href="trainingcalendar"><i class="material-icons">event</i><span>Training Calendar</span></a></li>
+            
+             </ul>
+
          </li>
       </a>
 
-      <a href="#">
-         <li class="pageTab1">
+      <a href="javascript:;">
+         <li class="pageTab1 fallDown">
              <i class="material-icons">settings</i>
-             <span>Support Center</span>
+             <span>Support Center <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
+
+
+              <ul>
+     
+                 <li><a href="support"><i class="material-icons">dashboard</i><span>Dashboard</span></a></li>
+               
+                 <li><a href="message"><i class="material-icons">comment</i><span>New Message</span></a></li>
+              
+                 <li><a href="ticket"><i class="material-icons">mail</i><span>Tickets <code>(3)</code></span></a></li>
+               
+                 <li><a href="noty"><i class="material-icons">warning</i><span>Notification settings</span></a></li>
+            
+             </ul>
          </li>
       </a>
 
@@ -205,14 +228,6 @@
          <li class="pageTab1">
              <i class="material-icons">list</i>
              <span>Reports</span>
-         </li>
-      </a>
-
-
-      <a href="multitenant">
-         <li class="pageTab1">
-             <i class="material-icons">star</i>
-             <span>Multi-Tenant LMS</span>
          </li>
       </a>
 
@@ -266,3 +281,35 @@
   <div class="pallete1"> 
 
 
+
+
+
+
+<style>
+.pageTab1.fallDown:hover {
+   background: #1e2226;
+}
+.pageTab1.fallDown ul {
+   height: 0px;
+   overflow: hidden;
+   list-style-type: none;
+   width: 120%;
+   padding-left: 20px;
+}
+.pageTab1.fallDown:hover ul {
+  height: auto;
+  margin-top: 15px;
+}
+.pageTab1.fallDown ul li {
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   font-size: 15px;
+   font-weight: normal;
+}
+.pageTab1.fallDown ul li:hover {
+    background: #AB192D;
+}
+
+</style>
