@@ -241,9 +241,22 @@
 
 
       <a href="#">
-         <li class="pageTab1">
+         <li class="pageTab1 fallDown">
              <i class="material-icons">group</i>
-             <span>User Management</span>
+             <span>User Management <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
+
+
+             <ul>
+     
+                 <li><a href="allusers"><i class="material-icons">group</i><span>All Users</span></a></li>
+               
+                 <li><a href="addnewuser"><i class="material-icons">add_box</i><span>Add New User</span></a></li>
+              
+                 <li><a href="createuserrole"><i class="material-icons">person</i><span>Create Role</span></a></li>
+            
+             </ul>
+
+
          </li>
       </a>
 
