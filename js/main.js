@@ -244,6 +244,8 @@ $('.tabs .tab-links a').on('click', function (e) {
 
 
 
+
+
 //backdrop remove
 
 $('.backdrop').click(function() {
