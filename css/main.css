@@ -45,6 +45,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  float: left;
 }
 
 /* Hide the browser's default checkbox */
@@ -52,6 +53,7 @@
   position: absolute;
   opacity: 0;
   cursor: pointer;
+  float: left;
 }
 
 /* Create a custom checkbox */
@@ -62,6 +64,7 @@
   height: 14px;
   width: 14px;
   background-color: #eee;
+  float: left;
 }
 
 /* On mouse-over, add a grey background color */
@@ -126,17 +129,13 @@
 }
 /** global styles **/
  div, span, input, textarea, button, ul, li, i, h1, h2, h3, h4, h5, h6, form, textarea, sup, video, table, tr, td, th, tbody, thead {
-     float: left;
      box-sizing: border-box;
-     position: relative;
       transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
- img {
-     float: left;
-}
 a.button {
      width: 100%;
+  float: left;
 }
 
 input, textarea, select {
@@ -163,14 +162,17 @@ button {
      z-index: 10;
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
+  float: left;
 }
  header.second.header_up {
      height: 50px;
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
+  float: left;
 }
  header.second img {
      height: 100%;
+     float: left;
 }
  header.second .menuBtn1 {
      display: none;
@@ -182,21 +184,25 @@ button {
      transition: all 0.5s ease-out;
      -webkit-transition: all 0.5s ease-out;
      cursor: pointer;
+     float: left;
 }
  header.second .menuBtn1.inside {
      margin-left: -20px;
      transition: all 0.5s ease-out;
      -webkit-transition: all 0.5s ease-out;
+     float: left;
 }
  header.second img.marginImg {
      height: 80%;
      margin-top: 10px;
      margin-bottom: 20px;
+     float: left;
 }
  header.second.header_up ul {
      margin-top: 10px;
      transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
+  float: left;
 }
  header.second ul {
      list-style-type: none;
@@ -211,6 +217,7 @@ button {
 }
  header.second ul li {
      margin-right: 40px;
+     float: left;
 
 }
  header.second ul li i {
@@ -223,12 +230,14 @@ button {
      -o-tab-highlight-color: rgba(0,0,0,0);
      -moz-tab-highlight-color: rgba(0,0,0,0);
      -ms-tab-highlight-color: rgba(0,0,0,0);
+     float: left;
 }
  header.second ul li h6 {
      font-size: 15px;
      margin-left: 7px;
      margin-top: 5px;
      font-weight: normal;
+     float: left;
 }
  header.second ul li span {
      background: #4286f4;
@@ -243,6 +252,7 @@ button {
      margin-left: -15px;
      font-weight: bold;
      font-size: 13px;
+     float: left;
 }
 
 
@@ -255,6 +265,7 @@ button {
     padding: 5px 15px 5px 15px;
     border-bottom: 1px solid #ddd;
     font-size: 11px;
+  float: left;
   }
   .infoTab a p {
      padding: 0;
@@ -306,20 +317,25 @@ button {
     }
     .msgBox .hD {
        color: #AB192D;
+  float: left;
     }
     .notyBox .hD {
        color: #4286f4;
+  float: left;
     }
     .msgBox .eD {
        background: #AB192D;
+  float: left;
     }
     .notyBox .eD {
        background: #4286f4;
+  float: left;
     }
     .bD {
         max-height: 300px;
         overflow-y: auto;
         width: 100%;
+  float: left;
     }
     .hD {
        width: 100%;
@@ -327,6 +343,7 @@ button {
        font-size: 14px;
        text-align: center;
        font-weight: bold;
+  float: left;
     }
     .eD {
        width: 100%;
@@ -335,6 +352,7 @@ button {
        text-align: center;
        color: #fff;
        font-size: 12px;
+  float: left;
     }
 
     .probBox {
@@ -362,6 +380,7 @@ button {
      padding: 7px;
      padding-left: 15px;
      color: #aaa;
+  float: left;
   }
 
 
@@ -377,6 +396,7 @@ button {
   height: 100%;
   z-index: 200;
   display: none;
+  float: left;
 }
 
 .backdropBox {
@@ -397,10 +417,12 @@ button {
   height: 30px;
   padding: 10px;
   background: #ddd;
+  float: left;
 }
 .backdropBox button {
   margin-top: 15px;
   width: 100%;
+  float: left;
 }
 
 
@@ -413,6 +435,7 @@ button {
      color: #fff;
      font-size: 10px;
      border: none;
+  float: left;
 }
 .btn1.btnMedium {
   padding: 10px 15px 10px 15px;
@@ -451,6 +474,7 @@ button {
  .wrapper1 {
      width: 100%;
      margin-top: 80px;
+  float: left;
 }
 
 
@@ -469,6 +493,7 @@ button {
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   overflow-x: hidden;
+  float: left;
 }
 
 ul.loop {
@@ -476,25 +501,30 @@ ul.loop {
     width: 100%;
     list-style-type: none;
     padding-left: 0px;
+  float: left;
   }
 
 .menuTab1 a {
    width: 100%;
    color: #E1FFFF;
+  float: left;
 }
 .pageTab1 {
    width: 100%;
    padding: 11px 30px 11px 30px;
+  float: left;
 
 }
 .pageTab1 i {
    font-size: 17px;
    margin-top: 1px;
+  float: left;
 }
 .pageTab1 span {
   font-size: 13px;
    margin-left: 22px;
    font-weight: bold;
+  float: left;
 } 
 .pageTab1:hover {
    background: #AB192D;
@@ -511,13 +541,44 @@ ul.loop {
 }
 .menuTab1.shrink .pageTab1 a{
      width: 100%;
+  float: left;
 }
 .menuTab1.shrink .pageTab1 i {
    width: 100%;
    text-align: center;
+  float: left;
 }
 .menuTab1.shrink .pageTab1 span {
      display: none;
+}
+
+
+.pageTab1.fallDown:hover {
+   background: #1e2226;
+}
+.pageTab1.fallDown ul {
+   height: 0px;
+   overflow: hidden;
+   list-style-type: none;
+   width: 120%;
+   padding-left: 20px;
+   float: left;
+}
+.pageTab1.fallDown:hover ul {
+  height: auto;
+  margin-top: 15px;
+}
+.pageTab1.fallDown ul li {
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   font-size: 15px;
+   font-weight: normal;
+  float: left;
+}
+.pageTab1.fallDown ul li:hover {
+    background: #AB192D;
 }
 
 
@@ -556,16 +617,19 @@ ul.loop {
       position: fixed;
       height: 70px;
       z-index: 9;
+  float: left;
 }
 .banner1 .menuBtn1 {
      color: #fff;
      font-size: 30px;
      cursor: pointer;
+  float: left;
 }
 .banner1 span {
       margin-left: 40px;
       font-size: 18px;
       margin-top: 6px;
+  float: left;
 }
 
 
@@ -583,6 +647,9 @@ ul.loop {
 /** color placement **/
 .bkSkyBlue {
      background: #0A9CB7;
+}
+.bkDarkBlue {
+  background: #383f51;
 }
 .bkPurple {
      background: #9D73A8;
@@ -629,6 +696,7 @@ ul.loop {
 .col41 {
      width: 22%;
      margin: 1.5%;
+  float: left;
 }
 
 
@@ -637,32 +705,39 @@ ul.loop {
      width: 100%;
      padding: 20px;
      padding-top: 90px;
+  float: left;
 }
 
 .boxed1 {
      width: 100%;
+  float: left;
 }
 .boxHead1 {
      width: 100%;
      border-bottom: 1px solid #ddd;
+  float: left;
 }
 .boxHeader1 {
      font-size: 15px;
      font-weight: bold;
      padding-bottom: 6px;
+  float: left;
 }
 .boxBody1 {
      padding: 20px 0px 20px 0px;
      width: 100%;
+  float: left;
 }
 .pad1 {
      padding: 15px;
+  float: left;
 }
 .pad1 i {
      width: 100%;
      text-align: center;
      color: #fff;
      font-size: 35px;
+  float: left;
 }
 .vintage1 {
      border: 2px solid #fff;
@@ -673,6 +748,7 @@ ul.loop {
      text-align: center;
      padding: 5px;
      margin-top: 20px;
+  float: left;
 }
 
 
@@ -688,15 +764,21 @@ tbody, thead {
 tr {
      width: 100%;
 }
+table.org1 tbody {
+
+  float: left;
+}
 table.org1 thead {
      background: #ddd;
      font-weight: bold;
      font-size: 13px;
      border-bottom: 2px solid #28A7BE;
+  float: left;
 }
 table.org1 td, table.org1 th {
      padding: 10px;
      font-size: 13px;
+  float: left;
 }
 th {
      text-align: left;
@@ -722,14 +804,97 @@ table.org1 td a i {
      color: #333;
      margin-right: 3px;
      margin-top: 3px;
+  float: left;
 }
 table.org1 td a span {
      font-size: 13px;
      color: #333;
+  float: left;
 
 }
 
 
+
+.bkBlack {
+  background: #111;
+}
+
+
+
+
+table.users {
+  width: 100%;
+  font-size: 13px;
+  float: left;
+}
+.users thead {
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin-bottom: 5px;
+  background: #f3af45;
+  border-top: 0px solid transparent;
+  float: left;
+}
+.users tbody {
+  width: 100%;
+  float: left;
+}
+.users tr {
+  width: 100%;
+  float: left;
+}
+.users tr td {
+  padding: 10px;
+  float: left;
+}
+.users tr td:nth-child(1), .users tr td:nth-child(2), .users tr td:nth-child(4), .users tr td:nth-child(5) {
+  width: 17.5%;
+}
+.users tr td a {
+  color: #00d7ff;
+}
+.users tr td:nth-child(3) {
+  width: 30%;
+}
+
+.users tbody tr:nth-child(even) {
+  background: rgba(243, 175, 69, 0.2);
+}
+.users tbody tr:nth-child(odd) {
+  background: #fff;
+}
+.users tbody tr {
+   margin-top: 0px;
+}
+.users tbody tr td a button {
+  margin-top: -5px;
+  float: left;
+}
+.users span {
+  color: #ce3535;
+  margin-left: 6px;
+  float: left;
+}
+
+
+.bkRed {
+  background: #ab192d;
+}
+.bDSkyBlue {
+  border-bottom: 3px solid #0095d9;
+}
+
+
+
+.tanBody .radio {
+    font-size: 13px;
+    margin-top: -2px;
+  float: left;
+  }
 
 
 /** course management **/
@@ -740,6 +905,7 @@ table.org1 td a span {
   height: 109px;
   border: 3px solid transparent;
   padding: 8px;
+  float: left;
 }
 .bigMenu1:hover {
   border: 3px solid #ff7400;
@@ -750,12 +916,14 @@ table.org1 td a span {
   background: #DAE8E7;
   padding: 12px;
   padding-top: 20px;
+  float: left;
 }
 .smallMenu1 i {
   width: 100%;
   text-align: center;
   color: #00d7ff;
   font-size: 30px;
+  float: left;
 }
 .smallMenu1 span {
   width: 100%;
@@ -763,6 +931,7 @@ table.org1 td a span {
   font-size: 10px;
   color: #444;
   text-align: center;
+  float: left;
 }
 .bigMenu1:hover .smallMenu1 {
   background: #0a9cb7;
@@ -782,6 +951,7 @@ table.org1 td a span {
   padding: 3% 5% 3% 5%;
   background: #fff;
   border: 1px solid rgba(183, 69, 142, 0.39);
+  float: left;
 }
 .progressLine1 {
   width: 96%;
@@ -790,15 +960,18 @@ table.org1 td a span {
   margin-left: 2%;
   margin-top: -41px;
   z-index: 0;
+  float: left;
 }
 .progressIndicator1 {
   width: 25%;
   background: #9d73a8;
   height: 100%;
+  float: left;
 }
 .tabloid {
   width: 33.3%;
   z-index: 1;
+  float: left;
 }
 .progress1 .tabloid:nth-child(2) {
   text-align: center;
@@ -816,12 +989,14 @@ table.org1 td a span {
   text-align: center;
   font-size: 13px;
   padding: 7px;
+  float: left;
 }
 .tabloid span {
   width: 100%;
   font-size: 13px;
   color: #ddd;
   margin-top: 10px;
+  float: left;
 }
 
 
@@ -831,6 +1006,7 @@ table.org1 td a span {
 }
 .progress1 .tabloid:nth-child(2) span {
   text-align: center;
+  float: left;
 }
 
 .progress1 .tabloid:nth-child(3) .podb {
@@ -844,6 +1020,7 @@ table.org1 td a span {
 .tabloid.active span {
   color: #444;
   font-weight: bold;
+  float: left;
 }
 
 
@@ -856,25 +1033,31 @@ table.org1 td a span {
   width: 100%;
   margin-top: 50px;
   padding-left: 40%;
+  float: left;
 }
 
 .formArea2, .formArea3 {
   display: none;
+  float: left;
 }
 .formArea {
   width: 100%;
   margin-top: 20px;
   padding-bottom: 60px;
+  float: left;
 }
 .formBox1 {
   padding: 10px 0px 10px 0px;
+  float: left;
 }
 .halfForm {
   width: 45%;
   margin-right: 5%;
+  float: left;
 }
 .fullForm {
-  width: 100%;
+  width: 94%;
+  float: left;
 }
 .formBox1 .label {
   width: 100%;
@@ -898,6 +1081,7 @@ table.org1 td a span {
   border: 1px solid rgba(0, 0, 0, 0.39);
   border-radius: 3px;
   -webkit-border-radius: 3px;
+  float: left;
 }
 .formBox1 textarea {
   height: 100px;
@@ -922,37 +1106,45 @@ button.endBtn {
   height: auto;
   width: auto;
   margin-top: 50px;
+  float: left;
 }
 input[type='radio'] {
   margin: 0px;
   padding: 0px;
   width: 20px;
+  float: left;
 }
 .formBox1 option {
   width: 100%;
   height: 35px;
+  float: left;
 }
 span.radio {
   margin-left: 10px;
   margin-right: 30px;
   font-size: 16px;
   margin-top: 4px;
+  float: left;
 }
 .relay {
   width: 100%;
   display: none;
+  float: left;
 }
 .relay.relay1 {
   display: block;
+  float: left;
 }
 
 
 .courseSlate {
   width: 100%;
   margin-bottom: 7px;
+  float: left;
 }
 .courseSlate i {
   cursor: pointer;
+  float: left;
 }
 .typei {
   height: 100%;
@@ -960,6 +1152,7 @@ span.radio {
   text-align: center;
   color: #fff;
   font-size: 14px;
+  float: left;
 }
 .topicNm {
   width: 80%;
@@ -967,6 +1160,7 @@ span.radio {
   color: #fff;
   font-size: 14px;
   padding: 10px;
+  float: left;
 }
 .topicMod {
   width: 30%;
@@ -974,42 +1168,51 @@ span.radio {
   color: #fff;
   padding: 10px;
   font-size: 14px;
+  float: left;
 }
 .topicAction {
   width: 20%;
   background: #a3a1cb;
   padding: 10px;
   border-left: 1px solid #fff;
+  float: left;
 }
 .topicAction i {
   font-size: 16px;
   margin-right: 15px;
   cursor: pointer;
+  float: left;
 }
 .nabi, .nabiHd, .nabiBd {
   width: 100%;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
+  float: left;
 }
 .nabiHd .topicNm, .nabiHd .topicAction, .nabiHd i {
   color: #fff;
+  float: left;
 }
 .nabiHd .topicNm {
   background: #222;
+  float: left;
 }
 .nabiHd .topicAction {
   background: #444;
+  float: left;
 }
 .nabiBd {
   height: 0px;
   overflow: hidden;
    transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
+  float: left;
 }
 .nabiBd.harden {
   height: auto;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
+  float: left;
 }
 
 
@@ -1025,6 +1228,7 @@ span.radio {
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 30px;
+  float: left;
 }
 .endNote {
   background: #760f91;
@@ -1034,6 +1238,7 @@ span.radio {
   width: 30%;
   font-size: 17px;
   margin-left: 35%;
+  float: left;
 }
 
 
@@ -1042,6 +1247,7 @@ span.radio {
 .leftOff {
   width: 100%;
   padding: 5px;
+  float: left;
 
 }
 .tanBody {
@@ -1050,6 +1256,7 @@ span.radio {
   height: 150px;
   overflow-y: auto;
   border: 1px solid #ddd;
+  float: left;
 }
 .tanHead{
   background: #fbfbfb;
@@ -1057,16 +1264,19 @@ span.radio {
   padding: 15px;
   margin-top: 20px;
   border: 1px solid #eee;
+  float: left;
 }
 .tanHead input[type='text'], .tanHead select {
   border: 1px solid #eee;
   background: #fff;
+  float: left;
 }
 .tanHP {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   -webkit-border-top-left-radius: 12px;
   -webkit-border-top-right-radius: 12px;
+  float: left;
 }
 .searchT {
   width: 200px;
@@ -1074,6 +1284,7 @@ span.radio {
   padding: 7px;
   background: #fff;
   border: 2px solid #eee;
+  float: left;
 
 }
 .pinA {
@@ -1093,6 +1304,7 @@ span.radio {
   background: #fff;
   border: 2px solid #ddd;
   margin-top: -5px;
+  float: left;
   
 }
 
@@ -1103,6 +1315,7 @@ span.radio {
   margin-left: 2%;
   margin-right: 2%;
   height: 30px;
+  float: left;
 }
 .pullRight {
   float: right;
@@ -1154,10 +1367,12 @@ span.radio {
   width: 100%;
   overflow-x: auto;
   margin-top: -4px;
+  float: left;
 }
 table.employee {
   width: 100%;
   font-size: 13px;
+  float: left;
 }
 .employee thead {
   width: 100%;
@@ -1169,17 +1384,21 @@ table.employee {
   margin-bottom: 5px;
   background: #fff;
   border-top: 0px solid transparent;
+  float: left;
 }
 .employee tbody {
   width: 100%;
+  float: left;
 }
 .employee tr {
   width: 100%;
   background: #fff;
+  float: left;
 }
 .employee tr td {
   padding: 10px;
   background: #fff;
+  float: left;
 }
 .employee tr td:nth-child(1) {
   width: 10%;
@@ -1189,6 +1408,7 @@ table.employee {
 }
 .employee tr td a {
   color: #00d7ff;
+  float: left;
 }
 .employee tr td:nth-child(2), .employee tr td:nth-child(3) {
   width: 30%;
@@ -1208,12 +1428,17 @@ table.employee {
 }
 .employee tbody tr td a button {
   margin: 0;
+  float: left;
 }
 
 
 table.trainers {
   width: 100%;
   font-size: 13px;
+  float: left;
+}
+.inn {
+  float: left;
 }
 .trainers thead {
   width: 100%;
@@ -1225,17 +1450,21 @@ table.trainers {
   margin-bottom: 5px;
   background: #fff;
   border-top: 0px solid transparent;
+  float: left;
 }
 .trainers tbody {
   width: 100%;
+  float: left;
 }
 .trainers tr {
   width: 100%;
   background: #fff;
+  float: left;
 }
 .trainers tr td {
   padding: 10px;
   background: #fff;
+  float: left;
 }
 .trainers tr td:nth-child(1), .trainers tr td:nth-child(3), .trainers tr td:nth-child(6) {
   width: 10%;
@@ -1245,6 +1474,7 @@ table.trainers {
 }
 .trainers tr td a {
   color: #00d7ff;
+  float: left;
 }
 .trainers tr td:nth-child(2) {
   width: 30%;
@@ -1267,10 +1497,308 @@ table.trainers {
 }
 .trainers tbody tr td a button {
   margin-top: -5px;
+  float: left;
 }
 .trainers span {
   color: #ce3535;
   margin-left: 6px;
+  float: left;
+}
+
+
+table.Notification {
+  width: 100%;
+  font-size: 13px;
+  float: left;
+}
+.Notification thead {
+  width: 100%;
+  color: #19535f;
+  font-weight: bold;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  background: #f7f8f9;
+  border-top: 0px solid transparent;
+  float: left;
+}
+.Notification thead tr td:nth-child(1) {
+  color: orange;
+}
+.Notification thead tr {
+  background: transparent;
+}
+.Notification tbody {
+  width: 100%;
+  float: left;
+}
+.Notification tr {
+  width: 100%;
+  background: #fff;
+  float: left;
+}
+.Notification tr td {
+  padding: 10px;
+  width: 10%;
+  float: left;
+}
+.Notification tr td:nth-child(1), .Notification tr td:nth-child(8) {
+  width: 20%;
+}
+.Notification tbody tr td:nth-child(8) {
+  color: #15a7db;
+}
+.Notification tbody tr td:nth-child(1) {
+  border-left: 2px solid #6256a2;
+  font-weight: bold;
+}
+.Notification tbody tr {
+   margin-top: 0px;
+  border-bottom: 2px solid #f0f3f5;
+}
+
+
+
+.tab-content {
+     background:#fff;
+     width: 100%;
+     padding: 20px 0px 20px 0px;
+  float: left;
+}
+ .tabs {
+     width:100%;
+  float: left;
+}
+ .tab {
+     display:none;
+     width: 100%;
+  float: left;
+}
+ .tab.active {
+     display:block;
+     width: 100%;
+  float: left;
+}
+.tab-links li a {
+  color: #444;
+  float: left;
+}
+.tab-links li:hover a, .tab-links li.active a {
+  color: #fff;
+}
+
+
+
+.btnLong {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+table.tickets {
+  width: 100%;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-right: 0px solid transparent;
+  float: left;
+}
+.tickets thead {
+  width: 100%;
+  color: #444;
+  font-weight: bold;
+  font-size: 13px;
+  background: #fff;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  float: left;
+}
+.tickets thead tr, .tickets thead tr td {
+  background: transparent;
+}
+
+.tickets tbody {
+  width: 100%;
+  float: left;
+}
+.tickets tr {
+  width: 100%;
+  background: #fff;
+}
+.tickets tr td {
+  padding: 10px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  float: left;
+}
+.tickets tr td:nth-child(1) {
+  width: 10%;
+}
+.tickets tr td:nth-child(2) {
+  width: 50%;
+}
+.tickets tr td:nth-child(3), .tickets tr td:nth-child(4) {
+  width: 20%;
+}
+
+.tickets tr {
+   margin-top: 0px;
+  border-bottom: 2px solid #f0f3f5;
+}
+.tickets tbody tr td a button {
+  margin-top: -5px;
+  float: left;
+}
+
+table.courselist {
+  width: 100%;
+  font-size: 13px;
+  float: left;
+}
+.courselist thead {
+  width: 100%;
+  color: #19535f;
+  font-weight: bold;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  background: #fff;
+  border-top: 0px solid transparent;
+  float: left;
+}
+.courselist tbody {
+  width: 100%;
+  float: left;
+}
+.courselist tr {
+  width: 100%;
+  background: #fff;
+}
+.courselist tr td {
+  padding: 10px;
+  background: #fff;
+  float: left;
+}
+.courselist tr td:nth-child(1) {
+  width: 30%;
+}
+.courselist tr td:nth-child(2) {
+  width: 20%;
+}
+.courselist tbody tr td:nth-child(1) {
+  border-right: 2px solid #f0f3f5;
+}
+.courselist tr td a {
+  color: #00d7ff;
+}
+.courselist tr td:nth-child(3), .courselist tr td:nth-child(4), .courselist tr td:nth-child(5), .courselist tr td:nth-child(6), .courselist tr td:nth-child(7) {
+  width: 10%;
+}
+ 
+.courselist tbody tr {
+  margin-top: 0px;
+  border-bottom: 2px solid #f0f3f5;
+}
+.courselist tbody tr td a button {
+  margin: 0;
+  float: left;
+}
+
+
+
+.block4{
+  width: 21%;
+  margin: 0px 2% 20px 2%;
+  background: #fff;
+  height: 80px;
+  float: left;
+}
+.lad {
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+.lad i {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  padding-top: 18px;
+  float: left;
+}
+.lady {
+  width: 65%;
+  height: 100%;
+  padding: 15px;
+  float: left;
+}
+.lady sup {
+  width: 100%;
+  font-size: 13px;
+  color: #ccc;
+  font-weight: bold;
+  float: left;
+}
+.lady span {
+  width: 100%;
+  font-size: 20px;
+  color: #222;
+  font-weight: bold;
+  margin-top: 5px;
+  float: left;
+}
+
+
+table.records {
+  width: 100%;
+  font-size: 13px;
+  float: left;
+}
+.records thead {
+  width: 100%;
+  color: #444;
+  font-weight: bold;
+  font-size: 13px;
+  background: #f0f3f5;
+  border-top: 0px solid transparent;
+  float: left;
+}
+.records thead tr, .records thead tr td {
+  background: transparent;
+}
+
+.records tbody {
+  width: 100%;
+  float: left;
+}
+.records tr {
+  width: 100%;
+  background: #fff;
+}
+.records tr td {
+  padding: 10px;
+  background: #fff;
+  float: left;
+}
+.records tr td:nth-child(1) {
+  width: 10%;
+}
+.records tr td:nth-child(2) {
+  width: 70%;
+}
+.records tr td:nth-child(3) {
+  width: 20%;
+}
+
+.records tbody tr {
+   margin-top: 0px;
+  border-bottom: 2px solid #f0f3f5;
+}
+.records tbody tr td a button {
+  margin-top: -5px;
+  float: left;
 }
 
 
@@ -1279,10 +1807,12 @@ table.trainers {
      width: 100%;
      padding-top: 20px;
      padding-bottom: 100px;
+  float: left;
   }
   .profile .prob {
      width: 100%;
      margin-bottom: 10px;
+  float: left;
 
   }
   .profile .label {
@@ -1291,19 +1821,23 @@ table.trainers {
     margin-top: 7px;
     width: 20%;
     padding-left: 30px;
+  float: left;
   }
   .profile .input {
      width: 60%;
      background: #fbfbfb;
+  float: left;
   }
  .profile .input input {
       width: 100%;
       height: 30px;
       padding: 5px 15px 5px 15px;
+  float: left;
   }
   .profile .input input.halfer {
      width: 35%;
      margin-right: 10px;
+  float: left;
   }
 
 
@@ -1318,6 +1852,7 @@ table.trainers {
   }
   .profilePic img {
     width: 100%;
+  float: left;
   }
 
 
@@ -1326,6 +1861,7 @@ table.trainers {
   background: #ddd;
   width: 100%;
   list-style-type: none;
+  float: left;
 }
 .statsBanner li {
   float: left;
@@ -1353,6 +1889,39 @@ table.trainers {
   color: #E68618;
 }
 
+.bDGreen {
+  border-bottom: 3px solid #2fbf71;
+}
+.bulkfile {
+  background: rgba(22, 96, 136, 0.2);
+  padding: 30px;
+  padding-right: 45%;
+  float: left;
+}
+.bulkfile button {
+  background: #166088;
+  float: left;
+}
+
+.formBox1 label {
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  float: left;
+}
+label i {
+  font-style: italic;
+  color: #ccc;
+  font-size: 12px;
+  padding-left: 20px;
+  float: none;
+}
+.halfForm .halfForm {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: left;
+}
 
 
 
@@ -1363,6 +1932,7 @@ footer.second {
      position: fixed;
      bottom: 0px;
      z-index: 10;
+  float: left;
 }
  .foot1 {
      width: 100%;
@@ -1371,11 +1941,13 @@ footer.second {
      color: #fff;
      font-size: 15px;
      padding: 10px;
+  float: left;
 }
  .power1 {
      background: #eee;
      width: 100%;
      height: 50px;
+  float: left;
 }
  .power1 img {
      float: right;
@@ -1390,6 +1962,21 @@ footer.second {
      padding-top: 13px;
      font-weight: bold;
      margin-right: 5px;
+}
+
+
+
+.hint {
+  font-size: 13px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-weight: bold;
+  float: left;
+}
+.input select {
+  height: 35px;
+  width: 300px;
+  float: left;
 }
 
 
@@ -1504,6 +2091,11 @@ footer.second {
   width: 50%;
   margin-left: 25%;
 }
+
+.block4{
+  width: 30%;
+  margin: 0px 1.5% 20px 1.5%;
+}
     
 }
 
@@ -1536,7 +2128,7 @@ footer.second {
         margin-bottom: 15px;
       }
 
-      table.employee, table.trainers {
+      table.employee, table.trainers, table.users, table.Notification, table.records, table.courselist {
         width: 150%;
       }
 
@@ -1631,7 +2223,10 @@ table.org1 tr th:nth-child(1), table.org1 tr td:nth-child(1) {
 .topicAction {
   width: 30%;
 }
-
+.block4 {
+  width: 46%;
+  margin: 0px 2% 20px 2%;
+}
    
 }
 
@@ -1654,6 +2249,15 @@ table.org1 tr th:nth-child(1), table.org1 tr td:nth-child(1) {
           width: 97%;
           margin: 1.5%;
      }
+
+     .bulkfile {
+        padding-right: 30px;
+      }
+
+
+.block4 {
+  width: 96%;
+}
 
     
 }
