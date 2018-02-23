@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <script src="js/w3.js"></script>
 
-<title>Course Management</title>
+<title>Course Management | Assign Courses</title>
 
 <style>
 	.menuTab1 a:nth-child(1) .pageTab1 {
@@ -13,7 +13,7 @@
 
 <div class="banner1" style="background: #6f6caa;">
 	<i class="material-icons menuBtn1">menu</i>
-	<span>Course Management</span>
+	<span>Assign Courses</span>
 </div>
 
 
@@ -156,17 +156,6 @@
 
 	</div>
 
-
-<style>
-
-
-  .tanBody .radio {
-  	font-size: 13px;
-  	margin-top: -2px;
-  }
-
-
-</style>
 
 
 

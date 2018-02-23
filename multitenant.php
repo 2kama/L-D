@@ -78,22 +78,8 @@
 						<td>Organisation 1</td>
 						<td>April 25, 2017</td>
 						<td>
-							<a href=""><i class="material-icons">edit</i><span>Edit</span></a>
-							<a href=""><i class="material-icons">visibility</i><span>View</span></a>
-							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
-						</td>
-						<td>
-							<div class="btn1 btnGreen">Activate</div>
-						</td>
-
-
-						<tr>
-						<td>2</td>
-						<td>Organisation 1</td>
-						<td>April 25, 2017</td>
-						<td>
-							<a href=""><i class="material-icons">edit</i><span>Edit</span></a>
-							<a href=""><i class="material-icons">visibility</i><span>View</span></a>
+							<a href=""><i class="material-icons">edit</i><span>Edit&emsp;</span></a>
+							<a href=""><i class="material-icons">visibility</i><span>View&emsp;</span></a>
 							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
 						</td>
 						<td>
@@ -104,12 +90,28 @@
 
 
 					<tr>
-						<td>3</td>
+						<td>1</td>
 						<td>Organisation 1</td>
 						<td>April 25, 2017</td>
 						<td>
-							<a href=""><i class="material-icons">edit</i><span>Edit</span></a>
-							<a href=""><i class="material-icons">visibility</i><span>View</span></a>
+							<a href=""><i class="material-icons">edit</i><span>Edit&emsp;</span></a>
+							<a href=""><i class="material-icons">visibility</i><span>View&emsp;</span></a>
+							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
+						</td>
+						<td>
+							<div class="btn1 btnGreen">Activate</div>
+						</td>
+					</tr>
+
+
+
+					<tr>
+						<td>1</td>
+						<td>Organisation 1</td>
+						<td>April 25, 2017</td>
+						<td>
+							<a href=""><i class="material-icons">edit</i><span>Edit&emsp;</span></a>
+							<a href=""><i class="material-icons">visibility</i><span>View&emsp;</span></a>
 							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
 						</td>
 						<td>
@@ -120,35 +122,37 @@
 
 
 					<tr>
-						<td>4</td>
+						<td>1</td>
 						<td>Organisation 1</td>
 						<td>April 25, 2017</td>
 						<td>
-							<a href=""><i class="material-icons">edit</i><span>Edit</span></a>
-							<a href=""><i class="material-icons">visibility</i><span>View</span></a>
-							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
-						</td>
-						<td>
-							<div class="btn1 btnRed">Deactivate</div>
-						</td>
-					</tr>
-
-
-
-					<tr>
-						<td>5</td>
-						<td>Organisation 1</td>
-						<td>April 25, 2017</td>
-						<td>
-							<a href=""><i class="material-icons">edit</i><span>Edit</span></a>
-							<a href=""><i class="material-icons">visibility</i><span>View</span></a>
+							<a href=""><i class="material-icons">edit</i><span>Edit&emsp;</span></a>
+							<a href=""><i class="material-icons">visibility</i><span>View&emsp;</span></a>
 							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
 						</td>
 						<td>
 							<div class="btn1 btnGreen">Activate</div>
 						</td>
 					</tr>
+
+
+
+					<tr>
+						<td>1</td>
+						<td>Organisation 1</td>
+						<td>April 25, 2017</td>
+						<td>
+							<a href=""><i class="material-icons">edit</i><span>Edit&emsp;</span></a>
+							<a href=""><i class="material-icons">visibility</i><span>View&emsp;</span></a>
+							<a href=""><i class="material-icons">assignment</i><span>Generate Report</span></a>
+						</td>
+						<td>
+							<div class="btn1 btnGreen">Activate</div>
+						</td>
 					</tr>
+
+
+			
 				</tbody>
 			</table>
 

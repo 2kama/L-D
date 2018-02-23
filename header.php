@@ -296,33 +296,3 @@
 
 
 
-
-
-<style>
-.pageTab1.fallDown:hover {
-   background: #1e2226;
-}
-.pageTab1.fallDown ul {
-   height: 0px;
-   overflow: hidden;
-   list-style-type: none;
-   width: 120%;
-   padding-left: 20px;
-}
-.pageTab1.fallDown:hover ul {
-  height: auto;
-  margin-top: 15px;
-}
-.pageTab1.fallDown ul li {
-   width: 100%;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   padding-left: 10px;
-   font-size: 15px;
-   font-weight: normal;
-}
-.pageTab1.fallDown ul li:hover {
-    background: #AB192D;
-}
-
-</style>

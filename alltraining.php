@@ -56,7 +56,7 @@
 						<td>06-02-18</td>
 						<td><a href="#">Innovation Approach Bootcamp</a></td>
 						<td>Virtual</td>
-						<td><div>15-03-18</div> <span>10:00am</span></td>
+						<td><div class="inn">15-03-18</div> <span>10:00am</span></td>
 						<td><a href="">url</a></td>
 						<td>
 							<a href='profile'><button class="btn1 bkPurple">View / Edit</button></a>
@@ -67,7 +67,7 @@
 						<td>06-02-18</td>
 						<td><a href="#">Innovation Approach Bootcamp</a></td>
 						<td>Physical</td>
-						<td><div>15-03-18</div> <span>10:00am</span></td>
+						<td><div class="inn">15-03-18</div> <span>10:00am</span></td>
 						<td>Marina, Lagos</td>
 						<td>
 							<a href='profile'><button class="btn1 bkPurple">View / Edit</button></a>
@@ -78,7 +78,7 @@
 						<td>06-02-18</td>
 						<td><a href="#">Innovation Approach Bootcamp</a></td>
 						<td>Virtual</td>
-						<td><div>15-03-18</div> <span>10:00am</span></td>
+						<td><div class="inn">15-03-18</div> <span>10:00am</span></td>
 						<td><a href="">url</a></td>
 						<td>
 							<a href='profile'><button class="btn1 bkPurple">View / Edit</button></a>
@@ -89,7 +89,7 @@
 						<td>06-02-18</td>
 						<td><a href="#">Innovation Approach Bootcamp</a></td>
 						<td>Physical</td>
-						<td><div>15-03-18</div> <span>10:00am</span></td>
+						<td><div class="inn">15-03-18</div> <span>10:00am</span></td>
 						<td>Marina, Lagos</td>
 						<td>
 							<a href='profile'><button class="btn1 bkPurple">View / Edit</button></a>
@@ -101,7 +101,7 @@
 						<td>06-02-18</td>
 						<td><a href="#">Innovation Approach Bootcamp</a></td>
 						<td>Virtual</td>
-						<td><div>15-03-18</div> <span>10:00am</span></td>
+						<td><div class="inn">15-03-18</div> <span>10:00am</span></td>
 						<td><a href="">url</a></td>
 						<td>
 							<a href='profile'><button class="btn1 bkPurple">View / Edit</button></a>
@@ -112,7 +112,7 @@
 						<td>06-02-18</td>
 						<td><a href="#">Innovation Approach Bootcamp</a></td>
 						<td>Physical</td>
-						<td><div>15-03-18</div> <span>10:00am</span></td>
+						<td><div class="inn">15-03-18</div> <span>10:00am</span></td>
 						<td>Marina, Lagos</td>
 						<td>
 							<a href='profile'><button class="btn1 bkPurple">View / Edit</button></a>

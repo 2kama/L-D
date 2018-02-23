@@ -81,57 +81,6 @@
 			</table>
 			</div>
 
-<style>
-table.courselist {
-  width: 100%;
-  font-size: 13px;
-}
-.courselist thead {
-  width: 100%;
-  color: #19535f;
-  font-weight: bold;
-  font-size: 13px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  margin-bottom: 5px;
-  background: #fff;
-  border-top: 0px solid transparent;
-}
-.courselist tbody {
-  width: 100%;
-}
-.courselist tr {
-  width: 100%;
-  background: #fff;
-}
-.courselist tr td {
-  padding: 10px;
-  background: #fff;
-}
-.courselist tr td:nth-child(1) {
-  width: 30%;
-}
-.courselist tr td:nth-child(2) {
-	width: 20%;
-}
-.courselist tbody tr td:nth-child(1) {
-  border-right: 2px solid #f0f3f5;
-}
-.courselist tr td a {
-  color: #00d7ff;
-}
-.courselist tr td:nth-child(3), .courselist tr td:nth-child(4), .courselist tr td:nth-child(5), .courselist tr td:nth-child(6), .courselist tr td:nth-child(7) {
-  width: 10%;
-}
- 
-.courselist tbody tr {
-  margin-top: 0px;
-  border-bottom: 2px solid #f0f3f5;
-}
-.courselist tbody tr td a button {
-  margin: 0;
-}
-</style>			
 
 
 			<div class="counter">

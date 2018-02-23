@@ -134,51 +134,6 @@
 
 
 
-<style>
-/** add this to the main.css 
-
-.bDGreen {
-	border-bottom: 3px solid #2fbf71;
-}
-.bulkfile {
-	background: rgba(22, 96, 136, 0.2);
-	padding: 30px;
-	padding-right: 45%;
-}
-.bulkfile button {
-	background: #166088;
-}
-
-.formBox1 label {
-  width: 100%;
-  margin-bottom: 10px;
-  font-weight: bold;
-  font-size: 13px;
-  float: left;
-}
-label i {
-  font-style: italic;
-  color: #ccc;
-  font-size: 12px;
-  padding-left: 20px;
-  float: none;
-}
-.halfForm .halfForm {
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-
-
-@media (max-width: 500px;) {
-	.bulkfile {
-		padding-right: 30px;
-	}
-}
-
-
-**/
-</style>
-
 
 
 

@@ -62,7 +62,7 @@
 						<td>Human Resource Department</td>
 						<td>Marina, Lagos</td>
 						<td>
-							<a href='profile'><button class="btn1 bkSkyBlue">View details</button></a>
+							<button class="btn1 bkSkyBlue">View details</button>
 						</td>
 					</tr>
 
@@ -196,11 +196,6 @@
 
 
 </div>
-
-<style>
-
-</style>
-
 
 
 <?php include('footer.php'); ?>

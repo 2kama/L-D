@@ -53,7 +53,7 @@
 	<div class="boxBody1">
 
 			<table class="org1">
-				<tdead>
+				<thead>
 					<tr>
 						<th>&nbsp;</th>
 						<th>Name</th>
@@ -62,7 +62,7 @@
 						<th><button class="btn1 bkSkyBlue addNewLearningArea">Add New</button></th>
 						
 					</tr>
-				</tdead>
+				</thead>
 
 				<tbody>
 					<tr>

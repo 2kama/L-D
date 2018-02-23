@@ -163,18 +163,6 @@
 	</div>
 
 
-<style>
-
-
-  .tanBody .radio {
-  	font-size: 13px;
-  	margin-top: -2px;
-  }
-
-
-</style>
-
-
 
 
 

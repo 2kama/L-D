@@ -115,18 +115,6 @@
 
 </div>
 
-<style>
-.hint {
-  font-size: 13px;
-  margin-bottom: 20px;
-  width: 100%;
-  font-weight: bold;
-}
-.input select {
-  height: 35px;
-  width: 300px;
-}
-</style>
 
 
 
