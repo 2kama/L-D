@@ -166,130 +166,37 @@
   <div class="menuTab1">
      <ul class="loop">
 
-      <a href="managecourse">
+      <a href="multitenant">
+         <li class="pageTab1">
+             <i class="material-icons">dashboard</i>
+             <span>Dashboard</span>
+         </li>
+      </a>
+
+
+      <a href="organisation">
+         <li class="pageTab1">
+             <i class="material-icons">account_balance</i>
+             <span>Organisations</span>
+         </li>
+      </a>
+
+      <a href="library">
          <li class="pageTab1">
              <i class="material-icons">library_books</i>
-             <span>Manage Courses</span>
+             <span>Courses</span>
          </li>
       </a>
 
 
-      <a href="records">
+      <a href="mt-record">
          <li class="pageTab1">
-             <i class="material-icons">folder</i>
-             <span>Employee Records</span>
-         </li>
-      </a>
-
-      <a href="javascript:;">
-         <li class="pageTab1 fallDown">
-             <i class="material-icons">event</i>
-             <span>Training Management <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
-
-             <ul>
-     
-                 <li><a href="alltraining"><i class="material-icons">dvr</i><span>All Training</span></a></li>
-               
-                 <li><a href="newtraining"><i class="material-icons">add_box</i><span>Add New</span></a></li>
-              
-                 <li><a href="assigntraining"><i class="material-icons">link</i><span>Assign Training</span></a></li>
-               
-                 <li><a href="trainingrequest"><i class="material-icons">swap_horiz</i><span>Training Request</span></a></li>
-
-                 <li><a href="trainingcalendar"><i class="material-icons">event</i><span>Training Calendar</span></a></li>
-            
-             </ul>
-
-         </li>
-      </a>
-
-      <a href="javascript:;">
-         <li class="pageTab1 fallDown">
-             <i class="material-icons">settings</i>
-             <span>Support Center <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
-
-
-              <ul>
-     
-                 <li><a href="support"><i class="material-icons">dashboard</i><span>Dashboard</span></a></li>
-               
-                 <li><a href="message"><i class="material-icons">comment</i><span>New Message</span></a></li>
-              
-                 <li><a href="ticket"><i class="material-icons">mail</i><span>Tickets <code>(3)</code></span></a></li>
-               
-                 <li><a href="noty"><i class="material-icons">warning</i><span>Notification settings</span></a></li>
-            
-             </ul>
-         </li>
-      </a>
-
-
-      <a href="#">
-         <li class="pageTab1">
-             <i class="material-icons">list</i>
+             <i class="material-icons">description</i>
              <span>Reports</span>
          </li>
       </a>
 
-
-      <a href="#">
-         <li class="pageTab1">
-             <i class="material-icons">content_copy</i>
-             <span>Examination</span>
-         </li>
-      </a>
-
-
-      <a href="#">
-         <li class="pageTab1 fallDown">
-             <i class="material-icons">group</i>
-             <span>User Management <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
-
-
-             <ul>
-     
-                 <li><a href="allusers"><i class="material-icons">group</i><span>All Users</span></a></li>
-               
-                 <li><a href="addnewuser"><i class="material-icons">add_box</i><span>Add New User</span></a></li>
-              
-                 <li><a href="createuserrole"><i class="material-icons">person</i><span>Create Role</span></a></li>
-            
-             </ul>
-
-
-         </li>
-      </a>
-
-
-      <a href="#">
-         <li class="pageTab1">
-             <i class="material-icons">payment</i>
-             <span>Surveys/Course Feedbacks</span>
-         </li>
-      </a>
-
-
-      <a href="#">
-         <li class="pageTab1 fallDown">
-             <i class="material-icons">work</i>
-             <span>Advert Management <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
-
-             <ul>
-                <li><a href="alladvert"><i class="material-icons">image</i><span>All</span></a></li>
-               
-                 <li><a href="newadvert"><i class="material-icons">add_box</i><span>Add New</span></a></li>
-             </ul>
-
-         </li>
-      </a>
-
-
-      <a href="#">
-         <li class="pageTab1">
-             <i class="material-icons">wifi</i>
-             <span>Discussion Management</span>
-         </li>
-      </a>
+      
 
     </ul>
 
