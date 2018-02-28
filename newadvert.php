@@ -182,12 +182,12 @@
 				</div>
 
 				<div class="halfForm">
-					<label for="">To</label>
+					<label for=""><br>To</label>
 					<input type="date">
 				</div>
 
 				<div class="halfForm">
-					<label for="">Time</label>
+					<label for=""><br>Time</label>
 					<input type="time">
 				</div>
 			</div>
