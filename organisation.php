@@ -16,52 +16,44 @@
 	<div class="boxed1">
 
 		<div class="boxHead1">
-			<div class="boxHeader1 bBYellow">Quick Actions</div>
+			<div class="boxHeader1 bDOrange">All Organisations</div>
 		</div>
+
 
 		<div class="boxBody1">
 
-			<div class="pad1 col41 bkPurple">
-				<sup>&nbsp;</sup>
-				<i class="material-icons">note_add</i>
-				<div class="vintage1">Add Organisation</div>
+			<div class="tanHead tanHP" style="background: #fff;border:0px solid transparent;">
+
+				<div class="pinA" style="float: left;">
+					 <input type="text" placeholder="Organisation Search" class="orgaSearch">
+				</div>
+				
+				
+				<div class="pinA" style="float: right;">
+					<select name="" id="">
+						 	<option value="">bulk Actions</option>
+						 	<option value=""></option>
+						 	<option value=""></option>
+					</select>
+
+					<button style="float: right;margin-left: 20px;" class="btn1 bkSkyBlue">GO</button>
+				</div>
+				
+
+				
+				
 			</div>
 
-			<div class="pad1 col41 bkPurpleBlue">
-				<sup>209</sup>
-				<i class="material-icons">group</i>
-				<div class="vintage1">Total Learners</div>
-			</div>
-
-			<div class="pad1 col41 bkDarkPink">
-				<sup>118</sup>
-				<i class="material-icons">account_balance</i>
-				<div class="vintage1">Active Organisations</div>
-			</div>
-
-			<div class="pad1 col41 bkPink">
-				<sup>505</sup>
-				<i class="material-icons">book</i>
-				<div class="vintage1">Active Courses</div>
-			</div>
-
-		</div>
-
-	</div>
-
-
-	<div class="boxed1">
-
-		<div class="boxHead1">
-			<div class="boxHeader1 bBYellow">Recently added Organisations</div>
-		</div>
-
-		<div class="boxBody1">
 
 			<table class="org1">
 				<thead>
 					<tr>
-						<td>SN</td>
+						<td>
+							<label class="containers">
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label>
+						</td>
 						<td>Names</td>
 						<td>Date Created</td>
 						<td>Action</td>
@@ -71,7 +63,12 @@
 
 				<tbody>
 					<tr>
-						<td>1</td>
+						<td>
+							<label class="containers">
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label>
+						</td>
 						<td>Organisation 1</td>
 						<td>April 25, 2017</td>
 						<td>
@@ -87,7 +84,12 @@
 
 
 					<tr>
-						<td>1</td>
+						<td>
+							<label class="containers">
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label>
+						</td>
 						<td>Organisation 1</td>
 						<td>April 25, 2017</td>
 						<td>
@@ -103,7 +105,12 @@
 
 
 					<tr>
-						<td>1</td>
+						<td>
+							<label class="containers">
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label>
+						</td>
 						<td>Organisation 1</td>
 						<td>April 25, 2017</td>
 						<td>
@@ -119,7 +126,12 @@
 
 
 					<tr>
-						<td>1</td>
+						<td>
+							<label class="containers">
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label>
+						</td>
 						<td>Organisation 1</td>
 						<td>April 25, 2017</td>
 						<td>
@@ -135,7 +147,12 @@
 
 
 					<tr>
-						<td>1</td>
+						<td>
+							<label class="containers">
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label>
+						</td>
 						<td>Organisation 1</td>
 						<td>April 25, 2017</td>
 						<td>
