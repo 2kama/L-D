@@ -262,9 +262,16 @@
 
 
       <a href="#">
-         <li class="pageTab1">
+         <li class="pageTab1 fallDown">
              <i class="material-icons">payment</i>
              <span>Surveys/Course Feedbacks</span>
+
+              <ul>
+                <li><a href="surveys"><i class="material-icons">payment</i><span>Surveys</span></a></li>
+               
+                 <li><a href="addnewsurvey"><i class="material-icons">add_box</i><span>Create New</span></a></li>
+              </ul>
+
          </li>
       </a>
 
