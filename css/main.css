@@ -303,6 +303,7 @@ button {
        background: #fff;
        box-shadow: 0px 10px 10px rgba(58, 58, 58, 0.1);
        display: none;
+       overflow-x: hidden;
     }
     .popBox.showPop {
        display: block;
@@ -564,7 +565,7 @@ ul.loop {
    padding-left: 20px;
    float: left;
 }
-.pageTab1.fallDown:hover ul {
+.menuTab1 .pageTab1.fallDown:hover ul {
   height: auto;
   margin-top: 15px;
 }
@@ -579,9 +580,10 @@ ul.loop {
 }
 .pageTab1.fallDown ul li:hover {
     background: #AB192D;
+    margin-left: 0px;
+    padding-left: 0px;
+    left: 0;
 }
-
-
 
 
 
@@ -739,6 +741,12 @@ ul.loop {
      font-size: 35px;
   float: left;
 }
+.pad1 sup {
+  float: right;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
 .vintage1 {
      border: 2px solid #fff;
      width: 80%;
@@ -757,12 +765,15 @@ ul.loop {
 
 table.org1 {
      width: 100%;
+     float: left;
 }
 tbody, thead {
      width: 100%;
+     float: left;
 }
-tr {
+table.org1 tr {
      width: 100%;
+     float: left;
 }
 table.org1 tbody {
 
@@ -775,24 +786,21 @@ table.org1 thead {
      border-bottom: 2px solid #28A7BE;
   float: left;
 }
-table.org1 td, table.org1 th {
+table.org1 td {
      padding: 10px;
      font-size: 13px;
   float: left;
 }
-th {
-     text-align: left;
-}
-table.org1 tr th:nth-child(2), table.org1 tr th:nth-child(4), table.org1 tr td:nth-child(2), table.org1 tr td:nth-child(4) {     
+table.org1 tr td:nth-child(2), table.org1 tr td:nth-child(4) {     
      width: 35%;
 }
-table.org1 tr th:nth-child(3), table.org1 tr th:nth-child(5), table.org1 tr td:nth-child(3), table.org1 tr td:nth-child(5) {     
+table.org1 tr td:nth-child(3), table.org1 tr td:nth-child(5) {     
      width: 12.5%;
 }
-table.org1 tr td:nth-child(2), table.org1 tr td:nth-child(4) {
+table.org1 tbody tr td:nth-child(2), table.org1 tbody tr td:nth-child(4) {
      background: #fbfbfb;
 }
-table.org1 tr th:nth-child(1), table.org1 tr td:nth-child(1) {
+table.org1 tr td:nth-child(1) {
      width: 5%;
      text-align: center;
 }
@@ -1021,6 +1029,13 @@ table.users {
   color: #444;
   font-weight: bold;
   float: left;
+}
+
+
+.orgaSearch {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
 }
 
 
@@ -1369,6 +1384,9 @@ span.radio {
   margin-top: -4px;
   float: left;
 }
+
+
+
 table.employee {
   width: 100%;
   font-size: 13px;
@@ -1625,6 +1643,7 @@ table.tickets {
 .tickets tr {
   width: 100%;
   background: #fff;
+  float: left;
 }
 .tickets tr td {
   padding: 10px;
@@ -2128,7 +2147,7 @@ footer.second {
         margin-bottom: 15px;
       }
 
-      table.employee, table.trainers, table.users, table.Notification, table.records, table.courselist {
+      table.employee, table.trainers, table.users, table.Notification, table.records, table.courselist, table.advert, table.orga {
         width: 150%;
       }
 
