@@ -217,18 +217,27 @@
               
                  <li><a href="ticket"><i class="material-icons">mail</i><span>Tickets <code>(3)</code></span></a></li>
                
-                 <li><a href="noty"><i class="material-icons">warning</i><span>Notification settings</span></a></li>
+                 
             
              </ul>
          </li>
       </a>
 
 
-      <a href="#">
-         <li class="pageTab1">
+      <a href="javascript:;">
+         <li class="pageTab1 fallDown">
              <i class="material-icons">list</i>
-             <span>Reports</span>
+             <span>Reports <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
+
+
+             <ul>
+                 <li><a href="generatereport"><i class="material-icons">list</i><span>Generate Report</span></a></li>
+               
+                 <li><a href="addnewreport"><i class="material-icons">add_box</i><span>New Report</span></a></li>
+              </ul>
          </li>
+
+         
       </a>
 
 
@@ -240,25 +249,15 @@
       </a>
 
 
-      <a href="#">
-         <li class="pageTab1 fallDown">
-             <i class="material-icons">group</i>
-             <span>User Management <i class="material-icons" style="float: right;">arrow_drop_down</i></span>
 
-
-             <ul>
-     
-                 <li><a href="allusers"><i class="material-icons">group</i><span>All Users</span></a></li>
-               
-                 <li><a href="addnewuser"><i class="material-icons">add_box</i><span>Add New User</span></a></li>
-              
-                 <li><a href="createuserrole"><i class="material-icons">person</i><span>Create Role</span></a></li>
-            
-             </ul>
-
-
+      <a href="noty">
+         <li class="pageTab1">
+             <i class="material-icons">warning</i>
+             <span>Notification settings</span>
          </li>
       </a>
+
+ 
 
 
       <a href="#">

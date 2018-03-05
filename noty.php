@@ -1,14 +1,14 @@
 <?php include('header.php'); ?>
 
 
-<title>Support Center </title>
+<title>Notification Center </title>
 
 
 
 
 <div class="banner1 bkDarkBlue">
 	<i class="material-icons menuBtn1">menu</i>
-	<span>Support Center</span>
+	<span>Notification Center</span>
 </div>
 
 
