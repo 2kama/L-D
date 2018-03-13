@@ -254,5 +254,25 @@ $('.backdrop').click(function() {
 
 });
 
+
+
+
+
+$('.msgTab').click(function() {
+	$('.msgTab').removeClass("active");
+	$(this).addClass("active");
+	$('.msgList').addClass("upup");
+});
+
+$('.simp a').click(function() {
+		$('.msgList').removeClass("upup");
+});
+
+
+$('.msgHead button').click(function() {
+	$('.msgHead button').removeClass("active");
+	$(this).addClass("active");
+});
+
 	
 });
