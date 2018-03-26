@@ -30,9 +30,11 @@
 			 		</div>
 
 			 		
-
+					<div class="formBox1 fullForm">
+						<label for="" style="width: 100%;">Select fields:</label>
+					
 			 		<div class="formBox1 halfForm">
-			 			 <label for="">Select fields:</label>
+			 			 
 
 			 			 <div class="leftOff">
 							<label class="containers">&emsp;Staff ID
@@ -217,6 +219,69 @@
 						</div>
 
 			 		</div>
+
+			 		</div>
+
+
+
+			 		<div class="formBox1 fullForm">
+			 			<label for="" style="width: 100%;">Select fields:</label>
+
+
+			 	
+							<select name="" id="" class="toggleSelect">
+								<option value="">Select Frequency</option>
+								<option value="never">Never</option>
+								<option value="gender">Everyday</option>
+								<option value="grade">EVery sunday</option>
+								<option value="role">Every work-day</option>
+								<option value="individuals">Day 25 of every month</option>
+								<option value="region">Other</option>
+							</select>
+
+							<select name="" id="" class="toggleSelect">
+								<option value="">From</option>
+								<option value=""></option>
+								<option value=""></option>
+								<option value=""></option>
+								<option value=""></option>
+								<option value=""></option>
+							</select>
+
+
+							<select name="" id="" class="toggleSelect">
+								<option value="">To</option>
+								<option value=""></option>
+								<option value=""></option>
+								<option value=""></option>
+								<option value=""></option>
+								<option value=""></option>
+							</select>
+
+			 		</div>
+
+
+
+			 		<div class="formBox1 fullForm">
+			 			<label for="" style="width: 100%;">Add recipients</label>
+
+
+			 	
+							<select name="" id="" class="toggleSelect">
+								<option value="">Select profiles</option>
+								<option value="never">Employee</option>
+								<option value="gender">L & D</option>
+								<option value="grade">Management</option>
+								<option value="role">HR</option>
+								<option value="individuals">I.T.</option>
+								<option value="region">Custom</option>
+							</select>
+
+							
+
+			 		</div>
+
+
 
 			 </div>
 
