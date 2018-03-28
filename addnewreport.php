@@ -1,5 +1,7 @@
 <?php include('header.php'); ?>
 
+<link rel="stylesheet" href="css/bootstrap.css">
+
 <title>Add New Reports</title>
 
 
@@ -29,198 +31,269 @@
 			 			<input type="text" />
 			 		</div>
 
-			 		
-					<div class="formBox1 fullForm">
+			 	
 						<label for="" style="width: 100%;">Select fields:</label>
 					
-			 		<div class="formBox1 halfForm">
+			 		<div class="row">
 			 			 
-
-			 			 <div class="leftOff">
+						<div class="col-md-3">
+							<div class="leftOff">
 							<label class="containers">&emsp;Staff ID
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+						</div>
+			 			 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Staff Name
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
+						
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Department
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
+
+
+
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Group
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Grade
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;courses (report on each courses)
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Number of courses
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Status of courses
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Number of views
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Number of attempts
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Date accessed (day)
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Time accessed
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
-			 		</div>
+			 		
 
-
-			 		<div class="formBox1 halfForm">
-
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Duration
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Scope per course
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Average score (for multiple courses)
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Line Manager
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Location
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Training budget
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Budget Utilized
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Outstanding budget
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Percentage Utilization
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Number of participants
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 
+						<div class="col-md-3">
 						<div class="leftOff">
 							<label class="containers">&emsp;Course evaluation score
 							  <input type="checkbox">
 							  <span class="checkmark"></span>
 							</label>
 						</div>
+					</div>
 
 			 		</div>
 
+
+
+
+			 		<div class="container staple" style="padding: 20px;">
+
+			 			<button type="button" class="btn btn-primary">
+						  Notifications <span class="badge badge-light" style="color: red;">X</span>
+						</button>
+
+
 			 		</div>
+
+	<style>
+		.staple button {
+			font-size: 10px;
+		}
+	</style>	
+
+
+	<script>
+		$(document).ready(function() {
+
+			
+
+		});
+	</script>	 	
 
 
 
@@ -400,5 +473,8 @@ table.orga {
 
 
 </style>
+
+
+<script src="js/bootstrap.min.js"></script>
 
 <?php include('footer.php'); ?>
